@@ -1,0 +1,354 @@
+FROM gemma2:2b
+SYSTEM You are a world-class chess strategy expert. Given an opponent's weaknesses and playing patterns, provide specific, actionable chess strategies to exploit those weaknesses. Focus on concrete opening moves, tactical patterns, and strategic plans.
+
+# Training examples
+
+# Example 1
+USER Chess Player Analysis: Hikaru
+
+Opponent Weaknesses:
+
+
+Provide a comprehensive strategy to exploit these weaknesses.
+ASSISTANT Strategic Recommendations:
+
+Opening Suggestions:
+
+Tactical Advice:
+
+
+# Example 2
+USER Chess Player Analysis: Hikaru
+
+Opponent Weaknesses:
+
+
+Provide a comprehensive strategy to exploit these weaknesses.
+ASSISTANT Strategic Recommendations:
+
+Opening Suggestions:
+
+Tactical Advice:
+
+
+# Example 3
+USER Chess Player Analysis: Hikaru
+
+Opponent Weaknesses:
+
+
+Provide a comprehensive strategy to exploit these weaknesses.
+ASSISTANT Strategic Recommendations:
+
+Opening Suggestions:
+
+Tactical Advice:
+
+
+# Example 4
+USER Chess Player Analysis: Hikaru
+
+Opponent Weaknesses:
+
+
+Provide a comprehensive strategy to exploit these weaknesses.
+ASSISTANT Strategic Recommendations:
+
+Opening Suggestions:
+
+Tactical Advice:
+
+
+# Example 5
+USER Chess Player Analysis: magnus
+
+Opponent Weaknesses:
+
+
+Provide a comprehensive strategy to exploit these weaknesses.
+ASSISTANT Strategic Recommendations:
+
+Opening Suggestions:
+
+Tactical Advice:
+
+
+# Example 6
+USER Chess Player Analysis: magnus
+
+Opponent Weaknesses:
+
+
+Provide a comprehensive strategy to exploit these weaknesses.
+ASSISTANT Strategic Recommendations:
+
+Opening Suggestions:
+
+Tactical Advice:
+
+
+# Example 7
+USER Chess Player Analysis: magnus
+
+Opponent Weaknesses:
+
+
+Provide a comprehensive strategy to exploit these weaknesses.
+ASSISTANT Strategic Recommendations:
+
+Opening Suggestions:
+
+Tactical Advice:
+
+
+# Example 8
+USER Chess Player Analysis: levy
+
+Opponent Weaknesses:
+
+
+Provide a comprehensive strategy to exploit these weaknesses.
+ASSISTANT Strategic Recommendations:
+
+Opening Suggestions:
+
+Tactical Advice:
+
+
+# Example 9
+USER Chess Player Analysis: levy
+
+Opponent Weaknesses:
+
+
+Provide a comprehensive strategy to exploit these weaknesses.
+ASSISTANT Strategic Recommendations:
+
+Opening Suggestions:
+
+Tactical Advice:
+
+
+# Example 10
+USER Chess Player Analysis: levy
+
+Opponent Weaknesses:
+
+
+Provide a comprehensive strategy to exploit these weaknesses.
+ASSISTANT Strategic Recommendations:
+
+Opening Suggestions:
+
+Tactical Advice:
+
+
+# Example 11
+USER Chess Player Analysis: levy
+
+Opponent Weaknesses:
+
+
+Provide a comprehensive strategy to exploit these weaknesses.
+ASSISTANT Strategic Recommendations:
+
+Opening Suggestions:
+
+Tactical Advice:
+
+
+# Example 12
+USER Chess Player Analysis: MyBoyMagnusGiri
+
+Opponent Weaknesses:
+
+
+Provide a comprehensive strategy to exploit these weaknesses.
+ASSISTANT Strategic Recommendations:
+
+Opening Suggestions:
+
+Tactical Advice:
+
+
+# Example 13
+USER Chess Player Analysis: MyBoyMagnusGiri
+
+Opponent Weaknesses:
+
+
+Provide a comprehensive strategy to exploit these weaknesses.
+ASSISTANT Strategic Recommendations:
+
+Opening Suggestions:
+
+Tactical Advice:
+
+
+# Example 14
+USER Chess Player Analysis: MyBoyMagnusGiri
+
+Opponent Weaknesses:
+
+
+Provide a comprehensive strategy to exploit these weaknesses.
+ASSISTANT Strategic Recommendations:
+
+Opening Suggestions:
+
+Tactical Advice:
+
+
+# Example 15
+USER Chess Player Analysis: MyBoyMagnusGiri
+
+Opponent Weaknesses:
+
+
+Provide a comprehensive strategy to exploit these weaknesses.
+ASSISTANT Strategic Recommendations:
+
+Opening Suggestions:
+
+Tactical Advice:
+
+
+# Example 16
+USER Chess Player Analysis: hikaru
+
+Opponent Weaknesses:
+
+
+Provide a comprehensive strategy to exploit these weaknesses.
+ASSISTANT Strategic Recommendations:
+
+Opening Suggestions:
+
+Tactical Advice:
+
+
+# Example 17
+USER Chess Player Analysis: hikaru
+
+Opponent Weaknesses:
+
+
+Provide a comprehensive strategy to exploit these weaknesses.
+ASSISTANT Strategic Recommendations:
+
+Opening Suggestions:
+
+Tactical Advice:
+
+
+# Example 18
+USER Chess Player Analysis: hikaru
+
+Opponent Weaknesses:
+
+
+Provide a comprehensive strategy to exploit these weaknesses.
+ASSISTANT Strategic Recommendations:
+
+Opening Suggestions:
+
+Tactical Advice:
+
+
+# Example 19
+USER Chess Player Analysis: hikaru
+
+Opponent Weaknesses:
+
+
+Provide a comprehensive strategy to exploit these weaknesses.
+ASSISTANT Strategic Recommendations:
+
+Opening Suggestions:
+
+Tactical Advice:
+
+
+# Example 20
+USER Chess Player Analysis: hikaru
+
+Opponent Weaknesses:
+
+
+Provide a comprehensive strategy to exploit these weaknesses.
+ASSISTANT Strategic Recommendations:
+
+Opening Suggestions:
+
+Tactical Advice:
+
+
+# Example 21
+USER Chess Player Analysis: hikaru
+
+Opponent Weaknesses:
+
+
+Provide a comprehensive strategy to exploit these weaknesses.
+ASSISTANT Strategic Recommendations:
+
+Opening Suggestions:
+
+Tactical Advice:
+
+
+# Example 22
+USER Chess Player Analysis: hikaru
+
+Opponent Weaknesses:
+
+
+Provide a comprehensive strategy to exploit these weaknesses.
+ASSISTANT Strategic Recommendations:
+
+Opening Suggestions:
+
+Tactical Advice:
+
+
+# Example 23
+USER Chess Player Analysis: hikaru
+
+Opponent Weaknesses:
+
+
+Provide a comprehensive strategy to exploit these weaknesses.
+ASSISTANT Strategic Recommendations:
+
+Opening Suggestions:
+
+Tactical Advice:
+
+
+# Example 24
+USER Chess Player Analysis: knvb
+
+Opponent Weaknesses:
+
+
+Provide a comprehensive strategy to exploit these weaknesses.
+ASSISTANT Strategic Recommendations:
+
+Opening Suggestions:
+
+Tactical Advice:
+
+
+# Example 25
+USER Chess Player Analysis: knvb
+
+Opponent Weaknesses:
+
+
+Provide a comprehensive strategy to exploit these weaknesses.
+ASSISTANT Strategic Recommendations:
+
+Opening Suggestions:
+
+Tactical Advice:
+

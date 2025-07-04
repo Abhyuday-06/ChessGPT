@@ -1,0 +1,25 @@
+# Core dependencies
+torch>=1.9.0
+transformers>=4.20.0
+datasets>=2.0.0
+accelerate>=0.20.0
+protobuf<=3.20.0
+
+# Web UI dependencies
+flask>=2.0.0
+flask-socketio>=5.0.0
+python-socketio>=5.0.0
+
+# Chess analysis dependencies
+requests>=2.25.0
+python-chess>=1.9.0
+stockfish>=3.28.0
+beautifulsoup4>=4.9.0
+lxml>=4.6.0
+
+# Enhanced system dependencies
+# Note: Ollama is installed separately via setup_enhanced.py
+
+# Optional: for better performance
+# torch-audio  # if using audio features
+# tokenizers   # faster tokenization

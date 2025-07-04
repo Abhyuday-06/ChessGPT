@@ -1,0 +1,40 @@
+{
+  "timestamp": "2025-07-04 16:20:24",
+  "system": "nt",
+  "python_version": "3.8.5",
+  "working_directory": "D:\\Programming\\ChessGPT",
+  "tests": {
+    "python_version": {
+      "passed": true,
+      "error": null
+    },
+    "dependencies": {
+      "passed": true,
+      "error": null
+    },
+    "ollama": {
+      "passed": true,
+      "error": null
+    },
+    "stockfish": {
+      "passed": true,
+      "error": null
+    },
+    "config_files": {
+      "passed": true,
+      "error": null
+    },
+    "directories": {
+      "passed": true,
+      "error": null
+    },
+    "core_files": {
+      "passed": true,
+      "error": null
+    },
+    "imports": {
+      "passed": true,
+      "error": null
+    }
+  }
+}

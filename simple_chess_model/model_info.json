@@ -1,0 +1,7 @@
+{
+  "model_type": "simple_chess_strategy",
+  "training_date": "2025-07-04T13:05:24.612239",
+  "num_examples": 15,
+  "vocab_size": 137,
+  "status": "trained"
+}

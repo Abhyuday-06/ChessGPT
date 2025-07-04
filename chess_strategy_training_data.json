@@ -1,0 +1,3788 @@
+[
+  {
+    "input": {
+      "opponent_profile": {
+        "player_name": "Hikaru",
+        "analysis_summary": {
+          "total_games_analyzed": 7,
+          "primary_weaknesses_count": 5,
+          "tactical_vulnerability_count": 3
+        }
+      },
+      "opening_weaknesses": [
+        {
+          "opening": "ECO C47",
+          "eco": "C47",
+          "color": "as_white",
+          "win_rate": 0.0,
+          "sample_size": 1,
+          "severity": "high"
+        },
+        {
+          "opening": "Scandinavian Defense",
+          "eco": "B01",
+          "color": "as_black",
+          "win_rate": 0.0,
+          "sample_size": 1,
+          "severity": "high"
+        },
+        {
+          "opening": "ECO D17",
+          "eco": "D17",
+          "color": "as_black",
+          "win_rate": 0.0,
+          "sample_size": 1,
+          "severity": "high"
+        },
+        {
+          "opening": "Old Benoni Defense",
+          "eco": "A44",
+          "color": "as_black",
+          "win_rate": 33.33333333333333,
+          "sample_size": 3,
+          "severity": "medium"
+        },
+        {
+          "opening": "Sicilian Defense: Closed",
+          "eco": "B23",
+          "color": "as_white",
+          "win_rate": 100.0,
+          "sample_size": 1,
+          "severity": "low"
+        }
+      ],
+      "tactical_vulnerabilities": [
+        {
+          "opening": "Sicilian Defense: Closed",
+          "eco": "B23",
+          "blunders_per_game": 0.0,
+          "mistakes_per_game": 1.0,
+          "error_rate": 1.0,
+          "games_analyzed": 1
+        },
+        {
+          "opening": "Vienna Game",
+          "eco": "C28",
+          "blunders_per_game": 0.0,
+          "mistakes_per_game": 1.0,
+          "error_rate": 1.0,
+          "games_analyzed": 1
+        },
+        {
+          "opening": "ECO A04",
+          "eco": "A04",
+          "blunders_per_game": 0.0,
+          "mistakes_per_game": 2.0,
+          "error_rate": 2.0,
+          "games_analyzed": 1
+        }
+      ],
+      "experience_gaps": [
+        {
+          "opening": "Sicilian Defense: Closed",
+          "eco": "B23",
+          "color": "as_white",
+          "games_played": 1,
+          "results": [
+            "win"
+          ]
+        },
+        {
+          "opening": "Vienna Game",
+          "eco": "C28",
+          "color": "as_white",
+          "games_played": 1,
+          "results": [
+            "win"
+          ]
+        },
+        {
+          "opening": "ECO B50",
+          "eco": "B50",
+          "color": "as_white",
+          "games_played": 1,
+          "results": [
+            "win"
+          ]
+        },
+        {
+          "opening": "ECO A04",
+          "eco": "A04",
+          "color": "as_white",
+          "games_played": 1,
+          "results": [
+            "win"
+          ]
+        },
+        {
+          "opening": "ECO B07",
+          "eco": "B07",
+          "color": "as_white",
+          "games_played": 1,
+          "results": [
+            "win"
+          ]
+        },
+        {
+          "opening": "Sicilian Defense: Alapin Variation",
+          "eco": "B22",
+          "color": "as_white",
+          "games_played": 1,
+          "results": [
+            "win"
+          ]
+        },
+        {
+          "opening": "ECO B27",
+          "eco": "B27",
+          "color": "as_white",
+          "games_played": 1,
+          "results": [
+            "win"
+          ]
+        },
+        {
+          "opening": "ECO C00",
+          "eco": "C00",
+          "color": "as_white",
+          "games_played": 1,
+          "results": [
+            "win"
+          ]
+        },
+        {
+          "opening": "ECO C47",
+          "eco": "C47",
+          "color": "as_white",
+          "games_played": 1,
+          "results": [
+            "loss"
+          ]
+        },
+        {
+          "opening": "English Opening: Neo-Catalan",
+          "eco": "A13",
+          "color": "as_white",
+          "games_played": 1,
+          "results": [
+            "win"
+          ]
+        },
+        {
+          "opening": "ECO A07",
+          "eco": "A07",
+          "color": "as_white",
+          "games_played": 1,
+          "results": [
+            "win"
+          ]
+        },
+        {
+          "opening": "ECO A48",
+          "eco": "A48",
+          "color": "as_white",
+          "games_played": 1,
+          "results": [
+            "win"
+          ]
+        },
+        {
+          "opening": "Caro-Kann Defense",
+          "eco": "B12",
+          "color": "as_black",
+          "games_played": 2,
+          "results": [
+            "win",
+            "win"
+          ]
+        },
+        {
+          "opening": "Caro-Kann Defense: Forgacs Variation",
+          "eco": "B15",
+          "color": "as_black",
+          "games_played": 1,
+          "results": [
+            "win"
+          ]
+        },
+        {
+          "opening": "Sicilian Defense: Alapin Variation",
+          "eco": "B22",
+          "color": "as_black",
+          "games_played": 1,
+          "results": [
+            "win"
+          ]
+        },
+        {
+          "opening": "Italian Game",
+          "eco": "C55",
+          "color": "as_black",
+          "games_played": 1,
+          "results": [
+            "win"
+          ]
+        },
+        {
+          "opening": "Scandinavian Defense",
+          "eco": "B01",
+          "color": "as_black",
+          "games_played": 1,
+          "results": [
+            "loss"
+          ]
+        },
+        {
+          "opening": "ECO D17",
+          "eco": "D17",
+          "color": "as_black",
+          "games_played": 1,
+          "results": [
+            "loss"
+          ]
+        },
+        {
+          "opening": "ECO A46",
+          "eco": "A46",
+          "color": "as_black",
+          "games_played": 1,
+          "results": [
+            "win"
+          ]
+        },
+        {
+          "opening": "ECO B14",
+          "eco": "B14",
+          "color": "as_black",
+          "games_played": 1,
+          "results": [
+            "win"
+          ]
+        },
+        {
+          "opening": "ECO A35",
+          "eco": "A35",
+          "color": "as_black",
+          "games_played": 1,
+          "results": [
+            "win"
+          ]
+        },
+        {
+          "opening": "ECO A41",
+          "eco": "A41",
+          "color": "as_black",
+          "games_played": 1,
+          "results": [
+            "win"
+          ]
+        },
+        {
+          "opening": "ECO E94",
+          "eco": "E94",
+          "color": "as_black",
+          "games_played": 1,
+          "results": [
+            "win"
+          ]
+        }
+      ]
+    },
+    "output": {
+      "strategic_recommendations": {
+        "opening_choices": [
+          {
+            "target_opening": "ECO C47",
+            "opponent_color": "white",
+            "exploitation_method": "Force opponent into uncomfortable defensive positions",
+            "specific_lines": [
+              "Choose sharp, tactical variations",
+              "Avoid simplified positions",
+              "Create imbalanced pawn structures"
+            ],
+            "reasoning": "Opponent has only 0.0% win rate as White in this opening"
+          },
+          {
+            "target_opening": "Scandinavian Defense",
+            "opponent_color": "black",
+            "exploitation_method": "Play this opening as White to exploit opponent's weakness",
+            "specific_lines": [
+              "Play this opening (Scandinavian Defense) as White",
+              "Choose the most forcing variations",
+              "Maintain central tension"
+            ],
+            "reasoning": "Opponent has only 0.0% win rate as Black against this opening"
+          },
+          {
+            "target_opening": "ECO D17",
+            "opponent_color": "black",
+            "exploitation_method": "Play this opening as White to exploit opponent's weakness",
+            "specific_lines": [
+              "Play this opening (ECO D17) as White",
+              "Choose the most forcing variations",
+              "Maintain central tension"
+            ],
+            "reasoning": "Opponent has only 0.0% win rate as Black against this opening"
+          },
+          {
+            "target_opening": "Old Benoni Defense",
+            "opponent_color": "black",
+            "exploitation_method": "Play this opening as White to exploit opponent's weakness",
+            "specific_lines": [
+              "Play this opening (Old Benoni Defense) as White",
+              "Choose the most forcing variations",
+              "Maintain central tension"
+            ],
+            "reasoning": "Opponent has only 33.3% win rate as Black against this opening"
+          },
+          {
+            "target_opening": "Sicilian Defense: Closed",
+            "opponent_color": "white",
+            "exploitation_method": "Force opponent into uncomfortable defensive positions",
+            "specific_lines": [
+              "Play Sicilian Dragon variation for sharp tactical play",
+              "Consider Sicilian Najdorf for complex middlegame positions",
+              "Use Accelerated Dragon to avoid main theoretical lines"
+            ],
+            "reasoning": "Opponent has only 100.0% win rate as White in this opening"
+          }
+        ],
+        "tactical_approach": [
+          "Seek complex, tactical positions where opponent is prone to errors",
+          "Avoid simplified endgames - keep pieces on the board",
+          "Create multiple threats simultaneously",
+          "Focus on openings where opponent averages 2.0 errors per game"
+        ],
+        "psychological_tactics": [
+          "Steer games into opponent's least experienced openings",
+          "Target openings where opponent has played fewer than 3 games",
+          "Use rare but sound variations to take opponent out of preparation",
+          "Create novel positions early in the game"
+        ],
+        "overall_game_plan": "Primary Strategy: Target opponent's weakness in ECO C47 where they score 0.0%.\n\nKey Approach:\n1. Force opponent into uncomfortable defensive positions\n2. Use tactical complexity to induce errors (opponent averages 8.5 cp loss per move)\n3. Avoid opponent's strongest openings and steer toward their weak areas\n4. Maintain time pressure and create unfamiliar positions\n\nThis strategy exploits both positional weaknesses and tactical vulnerabilities while leveraging psychological pressure."
+      },
+      "confidence_level": "high",
+      "expected_success_rate": 0.55
+    },
+    "metadata": {
+      "analysis_date": "2025-07-03",
+      "analysis_type": "opening_and_tactical_weakness_exploitation",
+      "data_source": "chess_com_and_lichess_games"
+    }
+  },
+  {
+    "input": {
+      "opponent_profile": {
+        "player_name": "Hikaru",
+        "analysis_summary": {
+          "total_games_analyzed": 1,
+          "primary_weaknesses_count": 1,
+          "tactical_vulnerability_count": 0
+        }
+      },
+      "opening_weaknesses": [
+        {
+          "opening": "ECO C47",
+          "eco": "C47",
+          "color": "as_white",
+          "win_rate": 0.0,
+          "sample_size": 1,
+          "severity": "high"
+        }
+      ],
+      "tactical_vulnerabilities": [],
+      "experience_gaps": [
+        {
+          "opening": "ECO C47",
+          "eco": "C47",
+          "color": "as_white",
+          "games_played": 1,
+          "results": [
+            "loss"
+          ]
+        }
+      ]
+    },
+    "output": {
+      "strategic_recommendations": {
+        "opening_choices": [
+          {
+            "target_opening": "ECO C47",
+            "opponent_color": "white",
+            "exploitation_method": "Force opponent into uncomfortable defensive positions",
+            "specific_lines": [
+              "Choose sharp, tactical variations",
+              "Avoid simplified positions",
+              "Create imbalanced pawn structures"
+            ],
+            "reasoning": "Opponent has only 0.0% win rate as White in this opening"
+          }
+        ],
+        "tactical_approach": [],
+        "psychological_tactics": [
+          "Steer games into opponent's least experienced openings",
+          "Target openings where opponent has played fewer than 3 games",
+          "Use rare but sound variations to take opponent out of preparation",
+          "Create novel positions early in the game"
+        ],
+        "overall_game_plan": "Primary Strategy: Target opponent's weakness in ECO C47 where they score 0.0%.\n\nKey Approach:\n1. Force opponent into uncomfortable defensive positions\n2. Use tactical complexity to induce errors (opponent averages 8.5 cp loss per move)\n3. Avoid opponent's strongest openings and steer toward their weak areas\n4. Maintain time pressure and create unfamiliar positions\n\nThis strategy exploits both positional weaknesses and tactical vulnerabilities while leveraging psychological pressure."
+      },
+      "confidence_level": "medium",
+      "expected_success_rate": 0.55
+    },
+    "metadata": {
+      "analysis_date": "2025-07-03",
+      "analysis_type": "opening_and_tactical_weakness_exploitation",
+      "data_source": "chess_com_and_lichess_games",
+      "focus_opening": "ECO C47",
+      "focus_eco": "C47"
+    }
+  },
+  {
+    "input": {
+      "opponent_profile": {
+        "player_name": "Hikaru",
+        "analysis_summary": {
+          "total_games_analyzed": 1,
+          "primary_weaknesses_count": 1,
+          "tactical_vulnerability_count": 0
+        }
+      },
+      "opening_weaknesses": [
+        {
+          "opening": "Scandinavian Defense",
+          "eco": "B01",
+          "color": "as_black",
+          "win_rate": 0.0,
+          "sample_size": 1,
+          "severity": "high"
+        }
+      ],
+      "tactical_vulnerabilities": [],
+      "experience_gaps": [
+        {
+          "opening": "Scandinavian Defense",
+          "eco": "B01",
+          "color": "as_black",
+          "games_played": 1,
+          "results": [
+            "loss"
+          ]
+        }
+      ]
+    },
+    "output": {
+      "strategic_recommendations": {
+        "opening_choices": [
+          {
+            "target_opening": "Scandinavian Defense",
+            "opponent_color": "black",
+            "exploitation_method": "Play this opening as White to exploit opponent's weakness",
+            "specific_lines": [
+              "Play this opening (Scandinavian Defense) as White",
+              "Choose the most forcing variations",
+              "Maintain central tension"
+            ],
+            "reasoning": "Opponent has only 0.0% win rate as Black against this opening"
+          }
+        ],
+        "tactical_approach": [],
+        "psychological_tactics": [
+          "Steer games into opponent's least experienced openings",
+          "Target openings where opponent has played fewer than 3 games",
+          "Use rare but sound variations to take opponent out of preparation",
+          "Create novel positions early in the game"
+        ],
+        "overall_game_plan": "Primary Strategy: Target opponent's weakness in Scandinavian Defense where they score 0.0%.\n\nKey Approach:\n1. Play this opening as White to exploit opponent's weakness\n2. Use tactical complexity to induce errors (opponent averages 8.5 cp loss per move)\n3. Avoid opponent's strongest openings and steer toward their weak areas\n4. Maintain time pressure and create unfamiliar positions\n\nThis strategy exploits both positional weaknesses and tactical vulnerabilities while leveraging psychological pressure."
+      },
+      "confidence_level": "medium",
+      "expected_success_rate": 0.55
+    },
+    "metadata": {
+      "analysis_date": "2025-07-03",
+      "analysis_type": "opening_and_tactical_weakness_exploitation",
+      "data_source": "chess_com_and_lichess_games",
+      "focus_opening": "Scandinavian Defense",
+      "focus_eco": "B01"
+    }
+  },
+  {
+    "input": {
+      "opponent_profile": {
+        "player_name": "Hikaru",
+        "analysis_summary": {
+          "total_games_analyzed": 1,
+          "primary_weaknesses_count": 1,
+          "tactical_vulnerability_count": 0
+        }
+      },
+      "opening_weaknesses": [
+        {
+          "opening": "ECO D17",
+          "eco": "D17",
+          "color": "as_black",
+          "win_rate": 0.0,
+          "sample_size": 1,
+          "severity": "high"
+        }
+      ],
+      "tactical_vulnerabilities": [],
+      "experience_gaps": [
+        {
+          "opening": "ECO D17",
+          "eco": "D17",
+          "color": "as_black",
+          "games_played": 1,
+          "results": [
+            "loss"
+          ]
+        }
+      ]
+    },
+    "output": {
+      "strategic_recommendations": {
+        "opening_choices": [
+          {
+            "target_opening": "ECO D17",
+            "opponent_color": "black",
+            "exploitation_method": "Play this opening as White to exploit opponent's weakness",
+            "specific_lines": [
+              "Play this opening (ECO D17) as White",
+              "Choose the most forcing variations",
+              "Maintain central tension"
+            ],
+            "reasoning": "Opponent has only 0.0% win rate as Black against this opening"
+          }
+        ],
+        "tactical_approach": [],
+        "psychological_tactics": [
+          "Steer games into opponent's least experienced openings",
+          "Target openings where opponent has played fewer than 3 games",
+          "Use rare but sound variations to take opponent out of preparation",
+          "Create novel positions early in the game"
+        ],
+        "overall_game_plan": "Primary Strategy: Target opponent's weakness in ECO D17 where they score 0.0%.\n\nKey Approach:\n1. Play this opening as White to exploit opponent's weakness\n2. Use tactical complexity to induce errors (opponent averages 8.5 cp loss per move)\n3. Avoid opponent's strongest openings and steer toward their weak areas\n4. Maintain time pressure and create unfamiliar positions\n\nThis strategy exploits both positional weaknesses and tactical vulnerabilities while leveraging psychological pressure."
+      },
+      "confidence_level": "medium",
+      "expected_success_rate": 0.55
+    },
+    "metadata": {
+      "analysis_date": "2025-07-03",
+      "analysis_type": "opening_and_tactical_weakness_exploitation",
+      "data_source": "chess_com_and_lichess_games",
+      "focus_opening": "ECO D17",
+      "focus_eco": "D17"
+    }
+  },
+  {
+    "input": {
+      "opponent_profile": {
+        "player_name": "magnus",
+        "analysis_summary": {
+          "total_games_analyzed": 2,
+          "primary_weaknesses_count": 2,
+          "tactical_vulnerability_count": 1
+        }
+      },
+      "opening_weaknesses": [
+        {
+          "opening": "ECO A03",
+          "eco": "A03",
+          "color": "as_white",
+          "win_rate": 100.0,
+          "sample_size": 1,
+          "severity": "low"
+        },
+        {
+          "opening": "Scandinavian Defense",
+          "eco": "B01",
+          "color": "as_black",
+          "win_rate": 100.0,
+          "sample_size": 1,
+          "severity": "low"
+        }
+      ],
+      "tactical_vulnerabilities": [
+        {
+          "opening": "ECO A03",
+          "eco": "A03",
+          "blunders_per_game": 1.0,
+          "mistakes_per_game": 2.0,
+          "error_rate": 3.0,
+          "games_analyzed": 1
+        }
+      ],
+      "experience_gaps": [
+        {
+          "opening": "ECO A03",
+          "eco": "A03",
+          "color": "as_white",
+          "games_played": 1,
+          "results": [
+            "win"
+          ]
+        },
+        {
+          "opening": "Scandinavian Defense",
+          "eco": "B01",
+          "color": "as_black",
+          "games_played": 1,
+          "results": [
+            "win"
+          ]
+        }
+      ]
+    },
+    "output": {
+      "strategic_recommendations": {
+        "opening_choices": [
+          {
+            "target_opening": "ECO A03",
+            "opponent_color": "white",
+            "exploitation_method": "Force opponent into uncomfortable defensive positions",
+            "specific_lines": [
+              "Choose sharp, tactical variations",
+              "Avoid simplified positions",
+              "Create imbalanced pawn structures"
+            ],
+            "reasoning": "Opponent has only 100.0% win rate as White in this opening"
+          },
+          {
+            "target_opening": "Scandinavian Defense",
+            "opponent_color": "black",
+            "exploitation_method": "Play this opening as White to exploit opponent's weakness",
+            "specific_lines": [
+              "Play this opening (Scandinavian Defense) as White",
+              "Choose the most forcing variations",
+              "Maintain central tension"
+            ],
+            "reasoning": "Opponent has only 100.0% win rate as Black against this opening"
+          }
+        ],
+        "tactical_approach": [
+          "Seek complex, tactical positions where opponent is prone to errors",
+          "Avoid simplified endgames - keep pieces on the board",
+          "Create multiple threats simultaneously",
+          "Focus on openings where opponent averages 3.0 errors per game"
+        ],
+        "psychological_tactics": [
+          "Steer games into opponent's least experienced openings",
+          "Target openings where opponent has played fewer than 3 games",
+          "Use rare but sound variations to take opponent out of preparation",
+          "Create novel positions early in the game"
+        ],
+        "overall_game_plan": "Primary Strategy: Target opponent's weakness in ECO A03 where they score 100.0%.\n\nKey Approach:\n1. Force opponent into uncomfortable defensive positions\n2. Use tactical complexity to induce errors (opponent averages 54.5 cp loss per move)\n3. Avoid opponent's strongest openings and steer toward their weak areas\n4. Maintain time pressure and create unfamiliar positions\n\nThis strategy exploits both positional weaknesses and tactical vulnerabilities while leveraging psychological pressure."
+      },
+      "confidence_level": "medium",
+      "expected_success_rate": 0.55
+    },
+    "metadata": {
+      "analysis_date": "2025-07-03",
+      "analysis_timestamp": "2025-07-03T16:30:17.180261",
+      "analysis_session_id": "magnus_20250703_163017",
+      "player_analyzed": "magnus",
+      "analysis_type": "opening_and_tactical_weakness_exploitation",
+      "data_source": "chess_com_and_lichess_games"
+    }
+  },
+  {
+    "input": {
+      "opponent_profile": {
+        "player_name": "magnus",
+        "analysis_summary": {
+          "total_games_analyzed": 1,
+          "primary_weaknesses_count": 1,
+          "tactical_vulnerability_count": 1
+        }
+      },
+      "opening_weaknesses": [
+        {
+          "opening": "ECO A03",
+          "eco": "A03",
+          "color": "as_white",
+          "win_rate": 100.0,
+          "sample_size": 1,
+          "severity": "low"
+        }
+      ],
+      "tactical_vulnerabilities": [
+        {
+          "opening": "ECO A03",
+          "eco": "A03",
+          "blunders_per_game": 1.0,
+          "mistakes_per_game": 2.0,
+          "error_rate": 3.0,
+          "games_analyzed": 1
+        }
+      ],
+      "experience_gaps": [
+        {
+          "opening": "ECO A03",
+          "eco": "A03",
+          "color": "as_white",
+          "games_played": 1,
+          "results": [
+            "win"
+          ]
+        }
+      ]
+    },
+    "output": {
+      "strategic_recommendations": {
+        "opening_choices": [
+          {
+            "target_opening": "ECO A03",
+            "opponent_color": "white",
+            "exploitation_method": "Force opponent into uncomfortable defensive positions",
+            "specific_lines": [
+              "Choose sharp, tactical variations",
+              "Avoid simplified positions",
+              "Create imbalanced pawn structures"
+            ],
+            "reasoning": "Opponent has only 100.0% win rate as White in this opening"
+          }
+        ],
+        "tactical_approach": [
+          "Seek complex, tactical positions where opponent is prone to errors",
+          "Avoid simplified endgames - keep pieces on the board",
+          "Create multiple threats simultaneously",
+          "Focus on openings where opponent averages 3.0 errors per game"
+        ],
+        "psychological_tactics": [
+          "Steer games into opponent's least experienced openings",
+          "Target openings where opponent has played fewer than 3 games",
+          "Use rare but sound variations to take opponent out of preparation",
+          "Create novel positions early in the game"
+        ],
+        "overall_game_plan": "Primary Strategy: Target opponent's weakness in ECO A03 where they score 100.0%.\n\nKey Approach:\n1. Force opponent into uncomfortable defensive positions\n2. Use tactical complexity to induce errors (opponent averages 54.5 cp loss per move)\n3. Avoid opponent's strongest openings and steer toward their weak areas\n4. Maintain time pressure and create unfamiliar positions\n\nThis strategy exploits both positional weaknesses and tactical vulnerabilities while leveraging psychological pressure."
+      },
+      "confidence_level": "medium",
+      "expected_success_rate": 0.55
+    },
+    "metadata": {
+      "analysis_date": "2025-07-03",
+      "analysis_timestamp": "2025-07-03T16:30:17.180261",
+      "analysis_session_id": "magnus_20250703_163017",
+      "player_analyzed": "magnus",
+      "analysis_type": "specific_opening_weakness_exploitation",
+      "data_source": "chess_com_and_lichess_games",
+      "focus_opening": "ECO A03",
+      "focus_eco": "A03"
+    }
+  },
+  {
+    "input": {
+      "opponent_profile": {
+        "player_name": "magnus",
+        "analysis_summary": {
+          "total_games_analyzed": 1,
+          "primary_weaknesses_count": 1,
+          "tactical_vulnerability_count": 0
+        }
+      },
+      "opening_weaknesses": [
+        {
+          "opening": "Scandinavian Defense",
+          "eco": "B01",
+          "color": "as_black",
+          "win_rate": 100.0,
+          "sample_size": 1,
+          "severity": "low"
+        }
+      ],
+      "tactical_vulnerabilities": [],
+      "experience_gaps": [
+        {
+          "opening": "Scandinavian Defense",
+          "eco": "B01",
+          "color": "as_black",
+          "games_played": 1,
+          "results": [
+            "win"
+          ]
+        }
+      ]
+    },
+    "output": {
+      "strategic_recommendations": {
+        "opening_choices": [
+          {
+            "target_opening": "Scandinavian Defense",
+            "opponent_color": "black",
+            "exploitation_method": "Play this opening as White to exploit opponent's weakness",
+            "specific_lines": [
+              "Play this opening (Scandinavian Defense) as White",
+              "Choose the most forcing variations",
+              "Maintain central tension"
+            ],
+            "reasoning": "Opponent has only 100.0% win rate as Black against this opening"
+          }
+        ],
+        "tactical_approach": [],
+        "psychological_tactics": [
+          "Steer games into opponent's least experienced openings",
+          "Target openings where opponent has played fewer than 3 games",
+          "Use rare but sound variations to take opponent out of preparation",
+          "Create novel positions early in the game"
+        ],
+        "overall_game_plan": "Primary Strategy: Target opponent's weakness in Scandinavian Defense where they score 100.0%.\n\nKey Approach:\n1. Play this opening as White to exploit opponent's weakness\n2. Use tactical complexity to induce errors (opponent averages 54.5 cp loss per move)\n3. Avoid opponent's strongest openings and steer toward their weak areas\n4. Maintain time pressure and create unfamiliar positions\n\nThis strategy exploits both positional weaknesses and tactical vulnerabilities while leveraging psychological pressure."
+      },
+      "confidence_level": "medium",
+      "expected_success_rate": 0.55
+    },
+    "metadata": {
+      "analysis_date": "2025-07-03",
+      "analysis_timestamp": "2025-07-03T16:30:17.180261",
+      "analysis_session_id": "magnus_20250703_163017",
+      "player_analyzed": "magnus",
+      "analysis_type": "specific_opening_weakness_exploitation",
+      "data_source": "chess_com_and_lichess_games",
+      "focus_opening": "Scandinavian Defense",
+      "focus_eco": "B01"
+    }
+  },
+  {
+    "input": {
+      "opponent_profile": {
+        "player_name": "levy",
+        "analysis_summary": {
+          "total_games_analyzed": 7,
+          "primary_weaknesses_count": 5,
+          "tactical_vulnerability_count": 0
+        }
+      },
+      "opening_weaknesses": [
+        {
+          "opening": "Uncommon Opening",
+          "eco": "A00",
+          "color": "as_white",
+          "win_rate": 0.0,
+          "sample_size": 2,
+          "severity": "high"
+        },
+        {
+          "opening": "ECO C20",
+          "eco": "C20",
+          "color": "as_white",
+          "win_rate": 0.0,
+          "sample_size": 2,
+          "severity": "high"
+        },
+        {
+          "opening": "ECO B00",
+          "eco": "B00",
+          "color": "as_black",
+          "win_rate": 0.0,
+          "sample_size": 1,
+          "severity": "high"
+        },
+        {
+          "opening": "Scandinavian Defense",
+          "eco": "B01",
+          "color": "as_black",
+          "win_rate": 0.0,
+          "sample_size": 1,
+          "severity": "high"
+        },
+        {
+          "opening": "Uncommon Opening",
+          "eco": "A00",
+          "color": "as_black",
+          "win_rate": 100.0,
+          "sample_size": 1,
+          "severity": "low"
+        }
+      ],
+      "tactical_vulnerabilities": [],
+      "experience_gaps": [
+        {
+          "opening": "Uncommon Opening",
+          "eco": "A00",
+          "color": "as_white",
+          "games_played": 2,
+          "results": [
+            "loss",
+            "loss"
+          ]
+        },
+        {
+          "opening": "ECO C20",
+          "eco": "C20",
+          "color": "as_white",
+          "games_played": 2,
+          "results": [
+            "loss",
+            "loss"
+          ]
+        },
+        {
+          "opening": "ECO B00",
+          "eco": "B00",
+          "color": "as_black",
+          "games_played": 1,
+          "results": [
+            "loss"
+          ]
+        },
+        {
+          "opening": "Uncommon Opening",
+          "eco": "A00",
+          "color": "as_black",
+          "games_played": 1,
+          "results": [
+            "win"
+          ]
+        },
+        {
+          "opening": "Scandinavian Defense",
+          "eco": "B01",
+          "color": "as_black",
+          "games_played": 1,
+          "results": [
+            "loss"
+          ]
+        }
+      ]
+    },
+    "output": {
+      "strategic_recommendations": {
+        "opening_choices": [
+          {
+            "target_opening": "Uncommon Opening",
+            "opponent_color": "white",
+            "exploitation_method": "Force opponent into uncomfortable defensive positions",
+            "specific_lines": [
+              "Choose sharp, tactical variations",
+              "Avoid simplified positions",
+              "Create imbalanced pawn structures"
+            ],
+            "reasoning": "Opponent has only 0.0% win rate as White in this opening"
+          },
+          {
+            "target_opening": "ECO C20",
+            "opponent_color": "white",
+            "exploitation_method": "Force opponent into uncomfortable defensive positions",
+            "specific_lines": [
+              "Choose sharp, tactical variations",
+              "Avoid simplified positions",
+              "Create imbalanced pawn structures"
+            ],
+            "reasoning": "Opponent has only 0.0% win rate as White in this opening"
+          },
+          {
+            "target_opening": "ECO B00",
+            "opponent_color": "black",
+            "exploitation_method": "Play this opening as White to exploit opponent's weakness",
+            "specific_lines": [
+              "Play this opening (ECO B00) as White",
+              "Choose the most forcing variations",
+              "Maintain central tension"
+            ],
+            "reasoning": "Opponent has only 0.0% win rate as Black against this opening"
+          },
+          {
+            "target_opening": "Scandinavian Defense",
+            "opponent_color": "black",
+            "exploitation_method": "Play this opening as White to exploit opponent's weakness",
+            "specific_lines": [
+              "Play this opening (Scandinavian Defense) as White",
+              "Choose the most forcing variations",
+              "Maintain central tension"
+            ],
+            "reasoning": "Opponent has only 0.0% win rate as Black against this opening"
+          },
+          {
+            "target_opening": "Uncommon Opening",
+            "opponent_color": "black",
+            "exploitation_method": "Play this opening as White to exploit opponent's weakness",
+            "specific_lines": [
+              "Play this opening (Uncommon Opening) as White",
+              "Choose the most forcing variations",
+              "Maintain central tension"
+            ],
+            "reasoning": "Opponent has only 100.0% win rate as Black against this opening"
+          }
+        ],
+        "tactical_approach": [],
+        "psychological_tactics": [
+          "Steer games into opponent's least experienced openings",
+          "Target openings where opponent has played fewer than 3 games",
+          "Use rare but sound variations to take opponent out of preparation",
+          "Create novel positions early in the game"
+        ],
+        "overall_game_plan": "Primary Strategy: Target opponent's weakness in Uncommon Opening where they score 0.0%.\n\nKey Approach:\n1. Force opponent into uncomfortable defensive positions\n2. Use tactical complexity to induce errors (opponent averages 6.0 cp loss per move)\n3. Avoid opponent's strongest openings and steer toward their weak areas\n4. Maintain time pressure and create unfamiliar positions\n\nThis strategy exploits both positional weaknesses and tactical vulnerabilities while leveraging psychological pressure."
+      },
+      "confidence_level": "high",
+      "expected_success_rate": 0.55
+    },
+    "metadata": {
+      "analysis_date": "2025-07-03",
+      "analysis_timestamp": "2025-07-03T16:31:02.181846",
+      "analysis_session_id": "levy_20250703_163102",
+      "player_analyzed": "levy",
+      "analysis_type": "opening_and_tactical_weakness_exploitation",
+      "data_source": "chess_com_and_lichess_games"
+    }
+  },
+  {
+    "input": {
+      "opponent_profile": {
+        "player_name": "levy",
+        "analysis_summary": {
+          "total_games_analyzed": 2,
+          "primary_weaknesses_count": 1,
+          "tactical_vulnerability_count": 0
+        }
+      },
+      "opening_weaknesses": [
+        {
+          "opening": "Uncommon Opening",
+          "eco": "A00",
+          "color": "as_white",
+          "win_rate": 0.0,
+          "sample_size": 2,
+          "severity": "high"
+        }
+      ],
+      "tactical_vulnerabilities": [],
+      "experience_gaps": [
+        {
+          "opening": "Uncommon Opening",
+          "eco": "A00",
+          "color": "as_white",
+          "games_played": 2,
+          "results": [
+            "loss",
+            "loss"
+          ]
+        },
+        {
+          "opening": "Uncommon Opening",
+          "eco": "A00",
+          "color": "as_black",
+          "games_played": 1,
+          "results": [
+            "win"
+          ]
+        }
+      ]
+    },
+    "output": {
+      "strategic_recommendations": {
+        "opening_choices": [
+          {
+            "target_opening": "Uncommon Opening",
+            "opponent_color": "white",
+            "exploitation_method": "Force opponent into uncomfortable defensive positions",
+            "specific_lines": [
+              "Choose sharp, tactical variations",
+              "Avoid simplified positions",
+              "Create imbalanced pawn structures"
+            ],
+            "reasoning": "Opponent has only 0.0% win rate as White in this opening"
+          }
+        ],
+        "tactical_approach": [],
+        "psychological_tactics": [
+          "Steer games into opponent's least experienced openings",
+          "Target openings where opponent has played fewer than 3 games",
+          "Use rare but sound variations to take opponent out of preparation",
+          "Create novel positions early in the game"
+        ],
+        "overall_game_plan": "Primary Strategy: Target opponent's weakness in Uncommon Opening where they score 0.0%.\n\nKey Approach:\n1. Force opponent into uncomfortable defensive positions\n2. Use tactical complexity to induce errors (opponent averages 6.0 cp loss per move)\n3. Avoid opponent's strongest openings and steer toward their weak areas\n4. Maintain time pressure and create unfamiliar positions\n\nThis strategy exploits both positional weaknesses and tactical vulnerabilities while leveraging psychological pressure."
+      },
+      "confidence_level": "medium",
+      "expected_success_rate": 0.55
+    },
+    "metadata": {
+      "analysis_date": "2025-07-03",
+      "analysis_timestamp": "2025-07-03T16:31:02.181846",
+      "analysis_session_id": "levy_20250703_163102",
+      "player_analyzed": "levy",
+      "analysis_type": "specific_opening_weakness_exploitation",
+      "data_source": "chess_com_and_lichess_games",
+      "focus_opening": "Uncommon Opening",
+      "focus_eco": "A00"
+    }
+  },
+  {
+    "input": {
+      "opponent_profile": {
+        "player_name": "levy",
+        "analysis_summary": {
+          "total_games_analyzed": 2,
+          "primary_weaknesses_count": 1,
+          "tactical_vulnerability_count": 0
+        }
+      },
+      "opening_weaknesses": [
+        {
+          "opening": "ECO C20",
+          "eco": "C20",
+          "color": "as_white",
+          "win_rate": 0.0,
+          "sample_size": 2,
+          "severity": "high"
+        }
+      ],
+      "tactical_vulnerabilities": [],
+      "experience_gaps": [
+        {
+          "opening": "ECO C20",
+          "eco": "C20",
+          "color": "as_white",
+          "games_played": 2,
+          "results": [
+            "loss",
+            "loss"
+          ]
+        }
+      ]
+    },
+    "output": {
+      "strategic_recommendations": {
+        "opening_choices": [
+          {
+            "target_opening": "ECO C20",
+            "opponent_color": "white",
+            "exploitation_method": "Force opponent into uncomfortable defensive positions",
+            "specific_lines": [
+              "Choose sharp, tactical variations",
+              "Avoid simplified positions",
+              "Create imbalanced pawn structures"
+            ],
+            "reasoning": "Opponent has only 0.0% win rate as White in this opening"
+          }
+        ],
+        "tactical_approach": [],
+        "psychological_tactics": [
+          "Steer games into opponent's least experienced openings",
+          "Target openings where opponent has played fewer than 3 games",
+          "Use rare but sound variations to take opponent out of preparation",
+          "Create novel positions early in the game"
+        ],
+        "overall_game_plan": "Primary Strategy: Target opponent's weakness in ECO C20 where they score 0.0%.\n\nKey Approach:\n1. Force opponent into uncomfortable defensive positions\n2. Use tactical complexity to induce errors (opponent averages 6.0 cp loss per move)\n3. Avoid opponent's strongest openings and steer toward their weak areas\n4. Maintain time pressure and create unfamiliar positions\n\nThis strategy exploits both positional weaknesses and tactical vulnerabilities while leveraging psychological pressure."
+      },
+      "confidence_level": "medium",
+      "expected_success_rate": 0.55
+    },
+    "metadata": {
+      "analysis_date": "2025-07-03",
+      "analysis_timestamp": "2025-07-03T16:31:02.181846",
+      "analysis_session_id": "levy_20250703_163102",
+      "player_analyzed": "levy",
+      "analysis_type": "specific_opening_weakness_exploitation",
+      "data_source": "chess_com_and_lichess_games",
+      "focus_opening": "ECO C20",
+      "focus_eco": "C20"
+    }
+  },
+  {
+    "input": {
+      "opponent_profile": {
+        "player_name": "levy",
+        "analysis_summary": {
+          "total_games_analyzed": 1,
+          "primary_weaknesses_count": 1,
+          "tactical_vulnerability_count": 0
+        }
+      },
+      "opening_weaknesses": [
+        {
+          "opening": "ECO B00",
+          "eco": "B00",
+          "color": "as_black",
+          "win_rate": 0.0,
+          "sample_size": 1,
+          "severity": "high"
+        }
+      ],
+      "tactical_vulnerabilities": [],
+      "experience_gaps": [
+        {
+          "opening": "ECO B00",
+          "eco": "B00",
+          "color": "as_black",
+          "games_played": 1,
+          "results": [
+            "loss"
+          ]
+        }
+      ]
+    },
+    "output": {
+      "strategic_recommendations": {
+        "opening_choices": [
+          {
+            "target_opening": "ECO B00",
+            "opponent_color": "black",
+            "exploitation_method": "Play this opening as White to exploit opponent's weakness",
+            "specific_lines": [
+              "Play this opening (ECO B00) as White",
+              "Choose the most forcing variations",
+              "Maintain central tension"
+            ],
+            "reasoning": "Opponent has only 0.0% win rate as Black against this opening"
+          }
+        ],
+        "tactical_approach": [],
+        "psychological_tactics": [
+          "Steer games into opponent's least experienced openings",
+          "Target openings where opponent has played fewer than 3 games",
+          "Use rare but sound variations to take opponent out of preparation",
+          "Create novel positions early in the game"
+        ],
+        "overall_game_plan": "Primary Strategy: Target opponent's weakness in ECO B00 where they score 0.0%.\n\nKey Approach:\n1. Play this opening as White to exploit opponent's weakness\n2. Use tactical complexity to induce errors (opponent averages 6.0 cp loss per move)\n3. Avoid opponent's strongest openings and steer toward their weak areas\n4. Maintain time pressure and create unfamiliar positions\n\nThis strategy exploits both positional weaknesses and tactical vulnerabilities while leveraging psychological pressure."
+      },
+      "confidence_level": "medium",
+      "expected_success_rate": 0.55
+    },
+    "metadata": {
+      "analysis_date": "2025-07-03",
+      "analysis_timestamp": "2025-07-03T16:31:02.181846",
+      "analysis_session_id": "levy_20250703_163102",
+      "player_analyzed": "levy",
+      "analysis_type": "specific_opening_weakness_exploitation",
+      "data_source": "chess_com_and_lichess_games",
+      "focus_opening": "ECO B00",
+      "focus_eco": "B00"
+    }
+  },
+  {
+    "input": {
+      "opponent_profile": {
+        "player_name": "MyBoyMagnusGiri",
+        "analysis_summary": {
+          "total_games_analyzed": 5,
+          "primary_weaknesses_count": 5,
+          "tactical_vulnerability_count": 1
+        }
+      },
+      "opening_weaknesses": [
+        {
+          "opening": "ECO E21",
+          "eco": "E21",
+          "color": "as_white",
+          "win_rate": 0.0,
+          "sample_size": 1,
+          "severity": "high"
+        },
+        {
+          "opening": "Uncommon Opening",
+          "eco": "A00",
+          "color": "as_white",
+          "win_rate": 0.0,
+          "sample_size": 1,
+          "severity": "high"
+        },
+        {
+          "opening": "ECO B51",
+          "eco": "B51",
+          "color": "as_black",
+          "win_rate": 0.0,
+          "sample_size": 1,
+          "severity": "high"
+        },
+        {
+          "opening": "ECO E73",
+          "eco": "E73",
+          "color": "as_black",
+          "win_rate": 0.0,
+          "sample_size": 1,
+          "severity": "high"
+        },
+        {
+          "opening": "ECO E90",
+          "eco": "E90",
+          "color": "as_black",
+          "win_rate": 0.0,
+          "sample_size": 1,
+          "severity": "high"
+        }
+      ],
+      "tactical_vulnerabilities": [
+        {
+          "opening": "ECO D21",
+          "eco": "D21",
+          "blunders_per_game": 0.0,
+          "mistakes_per_game": 2.0,
+          "error_rate": 2.0,
+          "games_analyzed": 1
+        }
+      ],
+      "experience_gaps": [
+        {
+          "opening": "ECO E21",
+          "eco": "E21",
+          "color": "as_white",
+          "games_played": 1,
+          "results": [
+            "loss"
+          ]
+        },
+        {
+          "opening": "ECO A42",
+          "eco": "A42",
+          "color": "as_white",
+          "games_played": 1,
+          "results": [
+            "win"
+          ]
+        },
+        {
+          "opening": "ECO D55",
+          "eco": "D55",
+          "color": "as_white",
+          "games_played": 1,
+          "results": [
+            "win"
+          ]
+        },
+        {
+          "opening": "Uncommon Opening",
+          "eco": "A00",
+          "color": "as_white",
+          "games_played": 1,
+          "results": [
+            "loss"
+          ]
+        },
+        {
+          "opening": "ECO D21",
+          "eco": "D21",
+          "color": "as_white",
+          "games_played": 1,
+          "results": [
+            "win"
+          ]
+        },
+        {
+          "opening": "ECO B51",
+          "eco": "B51",
+          "color": "as_black",
+          "games_played": 1,
+          "results": [
+            "loss"
+          ]
+        },
+        {
+          "opening": "ECO E73",
+          "eco": "E73",
+          "color": "as_black",
+          "games_played": 1,
+          "results": [
+            "loss"
+          ]
+        },
+        {
+          "opening": "ECO E90",
+          "eco": "E90",
+          "color": "as_black",
+          "games_played": 1,
+          "results": [
+            "loss"
+          ]
+        },
+        {
+          "opening": "ECO B00",
+          "eco": "B00",
+          "color": "as_black",
+          "games_played": 1,
+          "results": [
+            "loss"
+          ]
+        },
+        {
+          "opening": "Sicilian Defense: Closed",
+          "eco": "B23",
+          "color": "as_black",
+          "games_played": 1,
+          "results": [
+            "loss"
+          ]
+        }
+      ]
+    },
+    "output": {
+      "strategic_recommendations": {
+        "opening_choices": [
+          {
+            "target_opening": "ECO E21",
+            "opponent_color": "white",
+            "exploitation_method": "Force opponent into uncomfortable defensive positions",
+            "specific_lines": [
+              "Choose sharp, tactical variations",
+              "Avoid simplified positions",
+              "Create imbalanced pawn structures"
+            ],
+            "reasoning": "Opponent has only 0.0% win rate as White in this opening"
+          },
+          {
+            "target_opening": "Uncommon Opening",
+            "opponent_color": "white",
+            "exploitation_method": "Force opponent into uncomfortable defensive positions",
+            "specific_lines": [
+              "Choose sharp, tactical variations",
+              "Avoid simplified positions",
+              "Create imbalanced pawn structures"
+            ],
+            "reasoning": "Opponent has only 0.0% win rate as White in this opening"
+          },
+          {
+            "target_opening": "ECO B51",
+            "opponent_color": "black",
+            "exploitation_method": "Play this opening as White to exploit opponent's weakness",
+            "specific_lines": [
+              "Play this opening (ECO B51) as White",
+              "Choose the most forcing variations",
+              "Maintain central tension"
+            ],
+            "reasoning": "Opponent has only 0.0% win rate as Black against this opening"
+          },
+          {
+            "target_opening": "ECO E73",
+            "opponent_color": "black",
+            "exploitation_method": "Play this opening as White to exploit opponent's weakness",
+            "specific_lines": [
+              "Play this opening (ECO E73) as White",
+              "Choose the most forcing variations",
+              "Maintain central tension"
+            ],
+            "reasoning": "Opponent has only 0.0% win rate as Black against this opening"
+          },
+          {
+            "target_opening": "ECO E90",
+            "opponent_color": "black",
+            "exploitation_method": "Play this opening as White to exploit opponent's weakness",
+            "specific_lines": [
+              "Play this opening (ECO E90) as White",
+              "Choose the most forcing variations",
+              "Maintain central tension"
+            ],
+            "reasoning": "Opponent has only 0.0% win rate as Black against this opening"
+          }
+        ],
+        "tactical_approach": [
+          "Seek complex, tactical positions where opponent is prone to errors",
+          "Avoid simplified endgames - keep pieces on the board",
+          "Create multiple threats simultaneously",
+          "Focus on openings where opponent averages 2.0 errors per game"
+        ],
+        "psychological_tactics": [
+          "Steer games into opponent's least experienced openings",
+          "Target openings where opponent has played fewer than 3 games",
+          "Use rare but sound variations to take opponent out of preparation",
+          "Create novel positions early in the game"
+        ],
+        "overall_game_plan": "Primary Strategy: Target opponent's weakness in ECO E21 where they score 0.0%.\n\nKey Approach:\n1. Force opponent into uncomfortable defensive positions\n2. Use tactical complexity to induce errors (opponent averages 6.6 cp loss per move)\n3. Avoid opponent's strongest openings and steer toward their weak areas\n4. Maintain time pressure and create unfamiliar positions\n\nThis strategy exploits both positional weaknesses and tactical vulnerabilities while leveraging psychological pressure."
+      },
+      "confidence_level": "high",
+      "expected_success_rate": 0.55
+    },
+    "metadata": {
+      "analysis_date": "2025-07-03",
+      "analysis_timestamp": "2025-07-03T16:41:03.301712",
+      "analysis_session_id": "MyBoyMagnusGiri_20250703_164103",
+      "player_analyzed": "MyBoyMagnusGiri",
+      "analysis_type": "opening_and_tactical_weakness_exploitation",
+      "data_source": "chess_com_and_lichess_games"
+    }
+  },
+  {
+    "input": {
+      "opponent_profile": {
+        "player_name": "MyBoyMagnusGiri",
+        "analysis_summary": {
+          "total_games_analyzed": 1,
+          "primary_weaknesses_count": 1,
+          "tactical_vulnerability_count": 0
+        }
+      },
+      "opening_weaknesses": [
+        {
+          "opening": "ECO E21",
+          "eco": "E21",
+          "color": "as_white",
+          "win_rate": 0.0,
+          "sample_size": 1,
+          "severity": "high"
+        }
+      ],
+      "tactical_vulnerabilities": [],
+      "experience_gaps": [
+        {
+          "opening": "ECO E21",
+          "eco": "E21",
+          "color": "as_white",
+          "games_played": 1,
+          "results": [
+            "loss"
+          ]
+        }
+      ]
+    },
+    "output": {
+      "strategic_recommendations": {
+        "opening_choices": [
+          {
+            "target_opening": "ECO E21",
+            "opponent_color": "white",
+            "exploitation_method": "Force opponent into uncomfortable defensive positions",
+            "specific_lines": [
+              "Choose sharp, tactical variations",
+              "Avoid simplified positions",
+              "Create imbalanced pawn structures"
+            ],
+            "reasoning": "Opponent has only 0.0% win rate as White in this opening"
+          }
+        ],
+        "tactical_approach": [],
+        "psychological_tactics": [
+          "Steer games into opponent's least experienced openings",
+          "Target openings where opponent has played fewer than 3 games",
+          "Use rare but sound variations to take opponent out of preparation",
+          "Create novel positions early in the game"
+        ],
+        "overall_game_plan": "Primary Strategy: Target opponent's weakness in ECO E21 where they score 0.0%.\n\nKey Approach:\n1. Force opponent into uncomfortable defensive positions\n2. Use tactical complexity to induce errors (opponent averages 6.6 cp loss per move)\n3. Avoid opponent's strongest openings and steer toward their weak areas\n4. Maintain time pressure and create unfamiliar positions\n\nThis strategy exploits both positional weaknesses and tactical vulnerabilities while leveraging psychological pressure."
+      },
+      "confidence_level": "medium",
+      "expected_success_rate": 0.55
+    },
+    "metadata": {
+      "analysis_date": "2025-07-03",
+      "analysis_timestamp": "2025-07-03T16:41:03.301774",
+      "analysis_session_id": "MyBoyMagnusGiri_20250703_164103",
+      "player_analyzed": "MyBoyMagnusGiri",
+      "analysis_type": "specific_opening_weakness_exploitation",
+      "data_source": "chess_com_and_lichess_games",
+      "focus_opening": "ECO E21",
+      "focus_eco": "E21"
+    }
+  },
+  {
+    "input": {
+      "opponent_profile": {
+        "player_name": "MyBoyMagnusGiri",
+        "analysis_summary": {
+          "total_games_analyzed": 1,
+          "primary_weaknesses_count": 1,
+          "tactical_vulnerability_count": 0
+        }
+      },
+      "opening_weaknesses": [
+        {
+          "opening": "Uncommon Opening",
+          "eco": "A00",
+          "color": "as_white",
+          "win_rate": 0.0,
+          "sample_size": 1,
+          "severity": "high"
+        }
+      ],
+      "tactical_vulnerabilities": [],
+      "experience_gaps": [
+        {
+          "opening": "Uncommon Opening",
+          "eco": "A00",
+          "color": "as_white",
+          "games_played": 1,
+          "results": [
+            "loss"
+          ]
+        }
+      ]
+    },
+    "output": {
+      "strategic_recommendations": {
+        "opening_choices": [
+          {
+            "target_opening": "Uncommon Opening",
+            "opponent_color": "white",
+            "exploitation_method": "Force opponent into uncomfortable defensive positions",
+            "specific_lines": [
+              "Choose sharp, tactical variations",
+              "Avoid simplified positions",
+              "Create imbalanced pawn structures"
+            ],
+            "reasoning": "Opponent has only 0.0% win rate as White in this opening"
+          }
+        ],
+        "tactical_approach": [],
+        "psychological_tactics": [
+          "Steer games into opponent's least experienced openings",
+          "Target openings where opponent has played fewer than 3 games",
+          "Use rare but sound variations to take opponent out of preparation",
+          "Create novel positions early in the game"
+        ],
+        "overall_game_plan": "Primary Strategy: Target opponent's weakness in Uncommon Opening where they score 0.0%.\n\nKey Approach:\n1. Force opponent into uncomfortable defensive positions\n2. Use tactical complexity to induce errors (opponent averages 6.6 cp loss per move)\n3. Avoid opponent's strongest openings and steer toward their weak areas\n4. Maintain time pressure and create unfamiliar positions\n\nThis strategy exploits both positional weaknesses and tactical vulnerabilities while leveraging psychological pressure."
+      },
+      "confidence_level": "medium",
+      "expected_success_rate": 0.55
+    },
+    "metadata": {
+      "analysis_date": "2025-07-03",
+      "analysis_timestamp": "2025-07-03T16:41:03.301814",
+      "analysis_session_id": "MyBoyMagnusGiri_20250703_164103",
+      "player_analyzed": "MyBoyMagnusGiri",
+      "analysis_type": "specific_opening_weakness_exploitation",
+      "data_source": "chess_com_and_lichess_games",
+      "focus_opening": "Uncommon Opening",
+      "focus_eco": "A00"
+    }
+  },
+  {
+    "input": {
+      "opponent_profile": {
+        "player_name": "MyBoyMagnusGiri",
+        "analysis_summary": {
+          "total_games_analyzed": 1,
+          "primary_weaknesses_count": 1,
+          "tactical_vulnerability_count": 0
+        }
+      },
+      "opening_weaknesses": [
+        {
+          "opening": "ECO B51",
+          "eco": "B51",
+          "color": "as_black",
+          "win_rate": 0.0,
+          "sample_size": 1,
+          "severity": "high"
+        }
+      ],
+      "tactical_vulnerabilities": [],
+      "experience_gaps": [
+        {
+          "opening": "ECO B51",
+          "eco": "B51",
+          "color": "as_black",
+          "games_played": 1,
+          "results": [
+            "loss"
+          ]
+        }
+      ]
+    },
+    "output": {
+      "strategic_recommendations": {
+        "opening_choices": [
+          {
+            "target_opening": "ECO B51",
+            "opponent_color": "black",
+            "exploitation_method": "Play this opening as White to exploit opponent's weakness",
+            "specific_lines": [
+              "Play this opening (ECO B51) as White",
+              "Choose the most forcing variations",
+              "Maintain central tension"
+            ],
+            "reasoning": "Opponent has only 0.0% win rate as Black against this opening"
+          }
+        ],
+        "tactical_approach": [],
+        "psychological_tactics": [
+          "Steer games into opponent's least experienced openings",
+          "Target openings where opponent has played fewer than 3 games",
+          "Use rare but sound variations to take opponent out of preparation",
+          "Create novel positions early in the game"
+        ],
+        "overall_game_plan": "Primary Strategy: Target opponent's weakness in ECO B51 where they score 0.0%.\n\nKey Approach:\n1. Play this opening as White to exploit opponent's weakness\n2. Use tactical complexity to induce errors (opponent averages 6.6 cp loss per move)\n3. Avoid opponent's strongest openings and steer toward their weak areas\n4. Maintain time pressure and create unfamiliar positions\n\nThis strategy exploits both positional weaknesses and tactical vulnerabilities while leveraging psychological pressure."
+      },
+      "confidence_level": "medium",
+      "expected_success_rate": 0.55
+    },
+    "metadata": {
+      "analysis_date": "2025-07-03",
+      "analysis_timestamp": "2025-07-03T16:41:03.301848",
+      "analysis_session_id": "MyBoyMagnusGiri_20250703_164103",
+      "player_analyzed": "MyBoyMagnusGiri",
+      "analysis_type": "specific_opening_weakness_exploitation",
+      "data_source": "chess_com_and_lichess_games",
+      "focus_opening": "ECO B51",
+      "focus_eco": "B51"
+    }
+  },
+  {
+    "input": {
+      "opponent_profile": {
+        "player_name": "hikaru",
+        "analysis_summary": {
+          "total_games_analyzed": 7,
+          "primary_weaknesses_count": 5,
+          "tactical_vulnerability_count": 3
+        }
+      },
+      "opening_weaknesses": [
+        {
+          "opening": "ECO C47",
+          "eco": "C47",
+          "color": "as_white",
+          "win_rate": 0.0,
+          "sample_size": 1,
+          "severity": "high"
+        },
+        {
+          "opening": "Scandinavian Defense",
+          "eco": "B01",
+          "color": "as_black",
+          "win_rate": 0.0,
+          "sample_size": 1,
+          "severity": "high"
+        },
+        {
+          "opening": "ECO D17",
+          "eco": "D17",
+          "color": "as_black",
+          "win_rate": 0.0,
+          "sample_size": 1,
+          "severity": "high"
+        },
+        {
+          "opening": "Old Benoni Defense",
+          "eco": "A44",
+          "color": "as_black",
+          "win_rate": 33.33333333333333,
+          "sample_size": 3,
+          "severity": "medium"
+        },
+        {
+          "opening": "Sicilian Defense: Closed",
+          "eco": "B23",
+          "color": "as_white",
+          "win_rate": 100.0,
+          "sample_size": 1,
+          "severity": "low"
+        }
+      ],
+      "tactical_vulnerabilities": [
+        {
+          "opening": "Sicilian Defense: Closed",
+          "eco": "B23",
+          "blunders_per_game": 0.0,
+          "mistakes_per_game": 1.0,
+          "error_rate": 1.0,
+          "games_analyzed": 1
+        },
+        {
+          "opening": "Vienna Game",
+          "eco": "C28",
+          "blunders_per_game": 0.0,
+          "mistakes_per_game": 1.0,
+          "error_rate": 1.0,
+          "games_analyzed": 1
+        },
+        {
+          "opening": "ECO A04",
+          "eco": "A04",
+          "blunders_per_game": 0.0,
+          "mistakes_per_game": 2.0,
+          "error_rate": 2.0,
+          "games_analyzed": 1
+        }
+      ],
+      "experience_gaps": [
+        {
+          "opening": "Sicilian Defense: Closed",
+          "eco": "B23",
+          "color": "as_white",
+          "games_played": 1,
+          "results": [
+            "win"
+          ]
+        },
+        {
+          "opening": "Vienna Game",
+          "eco": "C28",
+          "color": "as_white",
+          "games_played": 1,
+          "results": [
+            "win"
+          ]
+        },
+        {
+          "opening": "ECO B50",
+          "eco": "B50",
+          "color": "as_white",
+          "games_played": 1,
+          "results": [
+            "win"
+          ]
+        },
+        {
+          "opening": "ECO A04",
+          "eco": "A04",
+          "color": "as_white",
+          "games_played": 1,
+          "results": [
+            "win"
+          ]
+        },
+        {
+          "opening": "ECO B07",
+          "eco": "B07",
+          "color": "as_white",
+          "games_played": 1,
+          "results": [
+            "win"
+          ]
+        },
+        {
+          "opening": "Sicilian Defense: Alapin Variation",
+          "eco": "B22",
+          "color": "as_white",
+          "games_played": 1,
+          "results": [
+            "win"
+          ]
+        },
+        {
+          "opening": "ECO B27",
+          "eco": "B27",
+          "color": "as_white",
+          "games_played": 1,
+          "results": [
+            "win"
+          ]
+        },
+        {
+          "opening": "ECO C00",
+          "eco": "C00",
+          "color": "as_white",
+          "games_played": 1,
+          "results": [
+            "win"
+          ]
+        },
+        {
+          "opening": "ECO C47",
+          "eco": "C47",
+          "color": "as_white",
+          "games_played": 1,
+          "results": [
+            "loss"
+          ]
+        },
+        {
+          "opening": "English Opening: Neo-Catalan",
+          "eco": "A13",
+          "color": "as_white",
+          "games_played": 1,
+          "results": [
+            "win"
+          ]
+        },
+        {
+          "opening": "ECO A07",
+          "eco": "A07",
+          "color": "as_white",
+          "games_played": 1,
+          "results": [
+            "win"
+          ]
+        },
+        {
+          "opening": "ECO A48",
+          "eco": "A48",
+          "color": "as_white",
+          "games_played": 1,
+          "results": [
+            "win"
+          ]
+        },
+        {
+          "opening": "Caro-Kann Defense",
+          "eco": "B12",
+          "color": "as_black",
+          "games_played": 2,
+          "results": [
+            "win",
+            "win"
+          ]
+        },
+        {
+          "opening": "Caro-Kann Defense: Forgacs Variation",
+          "eco": "B15",
+          "color": "as_black",
+          "games_played": 1,
+          "results": [
+            "win"
+          ]
+        },
+        {
+          "opening": "Sicilian Defense: Alapin Variation",
+          "eco": "B22",
+          "color": "as_black",
+          "games_played": 1,
+          "results": [
+            "win"
+          ]
+        },
+        {
+          "opening": "Italian Game",
+          "eco": "C55",
+          "color": "as_black",
+          "games_played": 1,
+          "results": [
+            "win"
+          ]
+        },
+        {
+          "opening": "Scandinavian Defense",
+          "eco": "B01",
+          "color": "as_black",
+          "games_played": 1,
+          "results": [
+            "loss"
+          ]
+        },
+        {
+          "opening": "ECO D17",
+          "eco": "D17",
+          "color": "as_black",
+          "games_played": 1,
+          "results": [
+            "loss"
+          ]
+        },
+        {
+          "opening": "ECO A46",
+          "eco": "A46",
+          "color": "as_black",
+          "games_played": 1,
+          "results": [
+            "win"
+          ]
+        },
+        {
+          "opening": "ECO B14",
+          "eco": "B14",
+          "color": "as_black",
+          "games_played": 1,
+          "results": [
+            "win"
+          ]
+        },
+        {
+          "opening": "ECO A35",
+          "eco": "A35",
+          "color": "as_black",
+          "games_played": 1,
+          "results": [
+            "win"
+          ]
+        },
+        {
+          "opening": "ECO A41",
+          "eco": "A41",
+          "color": "as_black",
+          "games_played": 1,
+          "results": [
+            "win"
+          ]
+        },
+        {
+          "opening": "ECO E94",
+          "eco": "E94",
+          "color": "as_black",
+          "games_played": 1,
+          "results": [
+            "win"
+          ]
+        }
+      ]
+    },
+    "output": {
+      "strategic_recommendations": {
+        "opening_choices": [
+          {
+            "target_opening": "ECO C47",
+            "opponent_color": "white",
+            "exploitation_method": "Force opponent into uncomfortable defensive positions",
+            "specific_lines": [
+              "Choose sharp, tactical variations",
+              "Avoid simplified positions",
+              "Create imbalanced pawn structures"
+            ],
+            "reasoning": "Opponent has only 0.0% win rate as White in this opening"
+          },
+          {
+            "target_opening": "Scandinavian Defense",
+            "opponent_color": "black",
+            "exploitation_method": "Play this opening as White to exploit opponent's weakness",
+            "specific_lines": [
+              "Play this opening (Scandinavian Defense) as White",
+              "Choose the most forcing variations",
+              "Maintain central tension"
+            ],
+            "reasoning": "Opponent has only 0.0% win rate as Black against this opening"
+          },
+          {
+            "target_opening": "ECO D17",
+            "opponent_color": "black",
+            "exploitation_method": "Play this opening as White to exploit opponent's weakness",
+            "specific_lines": [
+              "Play this opening (ECO D17) as White",
+              "Choose the most forcing variations",
+              "Maintain central tension"
+            ],
+            "reasoning": "Opponent has only 0.0% win rate as Black against this opening"
+          },
+          {
+            "target_opening": "Old Benoni Defense",
+            "opponent_color": "black",
+            "exploitation_method": "Play this opening as White to exploit opponent's weakness",
+            "specific_lines": [
+              "Play this opening (Old Benoni Defense) as White",
+              "Choose the most forcing variations",
+              "Maintain central tension"
+            ],
+            "reasoning": "Opponent has only 33.3% win rate as Black against this opening"
+          },
+          {
+            "target_opening": "Sicilian Defense: Closed",
+            "opponent_color": "white",
+            "exploitation_method": "Force opponent into uncomfortable defensive positions",
+            "specific_lines": [
+              "Play Sicilian Dragon variation for sharp tactical play",
+              "Consider Sicilian Najdorf for complex middlegame positions",
+              "Use Accelerated Dragon to avoid main theoretical lines"
+            ],
+            "reasoning": "Opponent has only 100.0% win rate as White in this opening"
+          }
+        ],
+        "tactical_approach": [
+          "Seek complex, tactical positions where opponent is prone to errors",
+          "Avoid simplified endgames - keep pieces on the board",
+          "Create multiple threats simultaneously",
+          "Focus on openings where opponent averages 2.0 errors per game"
+        ],
+        "psychological_tactics": [
+          "Steer games into opponent's least experienced openings",
+          "Target openings where opponent has played fewer than 3 games",
+          "Use rare but sound variations to take opponent out of preparation",
+          "Create novel positions early in the game"
+        ],
+        "overall_game_plan": "Primary Strategy: Target opponent's weakness in ECO C47 where they score 0.0%.\n\nKey Approach:\n1. Force opponent into uncomfortable defensive positions\n2. Use tactical complexity to induce errors (opponent averages 8.5 cp loss per move)\n3. Avoid opponent's strongest openings and steer toward their weak areas\n4. Maintain time pressure and create unfamiliar positions\n\nThis strategy exploits both positional weaknesses and tactical vulnerabilities while leveraging psychological pressure."
+      },
+      "confidence_level": "high",
+      "expected_success_rate": 0.55
+    },
+    "metadata": {
+      "analysis_date": "2025-07-04",
+      "analysis_timestamp": "2025-07-04T13:59:08.967143",
+      "analysis_session_id": "hikaru_20250704_135908",
+      "player_analyzed": "hikaru",
+      "analysis_type": "opening_and_tactical_weakness_exploitation",
+      "data_source": "chess_com_and_lichess_games"
+    }
+  },
+  {
+    "input": {
+      "opponent_profile": {
+        "player_name": "hikaru",
+        "analysis_summary": {
+          "total_games_analyzed": 1,
+          "primary_weaknesses_count": 1,
+          "tactical_vulnerability_count": 0
+        }
+      },
+      "opening_weaknesses": [
+        {
+          "opening": "ECO C47",
+          "eco": "C47",
+          "color": "as_white",
+          "win_rate": 0.0,
+          "sample_size": 1,
+          "severity": "high"
+        }
+      ],
+      "tactical_vulnerabilities": [],
+      "experience_gaps": [
+        {
+          "opening": "ECO C47",
+          "eco": "C47",
+          "color": "as_white",
+          "games_played": 1,
+          "results": [
+            "loss"
+          ]
+        }
+      ]
+    },
+    "output": {
+      "strategic_recommendations": {
+        "opening_choices": [
+          {
+            "target_opening": "ECO C47",
+            "opponent_color": "white",
+            "exploitation_method": "Force opponent into uncomfortable defensive positions",
+            "specific_lines": [
+              "Choose sharp, tactical variations",
+              "Avoid simplified positions",
+              "Create imbalanced pawn structures"
+            ],
+            "reasoning": "Opponent has only 0.0% win rate as White in this opening"
+          }
+        ],
+        "tactical_approach": [],
+        "psychological_tactics": [
+          "Steer games into opponent's least experienced openings",
+          "Target openings where opponent has played fewer than 3 games",
+          "Use rare but sound variations to take opponent out of preparation",
+          "Create novel positions early in the game"
+        ],
+        "overall_game_plan": "Primary Strategy: Target opponent's weakness in ECO C47 where they score 0.0%.\n\nKey Approach:\n1. Force opponent into uncomfortable defensive positions\n2. Use tactical complexity to induce errors (opponent averages 8.5 cp loss per move)\n3. Avoid opponent's strongest openings and steer toward their weak areas\n4. Maintain time pressure and create unfamiliar positions\n\nThis strategy exploits both positional weaknesses and tactical vulnerabilities while leveraging psychological pressure."
+      },
+      "confidence_level": "medium",
+      "expected_success_rate": 0.55
+    },
+    "metadata": {
+      "analysis_date": "2025-07-04",
+      "analysis_timestamp": "2025-07-04T13:59:08.967143",
+      "analysis_session_id": "hikaru_20250704_135908",
+      "player_analyzed": "hikaru",
+      "analysis_type": "specific_opening_weakness_exploitation",
+      "data_source": "chess_com_and_lichess_games",
+      "focus_opening": "ECO C47",
+      "focus_eco": "C47"
+    }
+  },
+  {
+    "input": {
+      "opponent_profile": {
+        "player_name": "hikaru",
+        "analysis_summary": {
+          "total_games_analyzed": 1,
+          "primary_weaknesses_count": 1,
+          "tactical_vulnerability_count": 0
+        }
+      },
+      "opening_weaknesses": [
+        {
+          "opening": "Scandinavian Defense",
+          "eco": "B01",
+          "color": "as_black",
+          "win_rate": 0.0,
+          "sample_size": 1,
+          "severity": "high"
+        }
+      ],
+      "tactical_vulnerabilities": [],
+      "experience_gaps": [
+        {
+          "opening": "Scandinavian Defense",
+          "eco": "B01",
+          "color": "as_black",
+          "games_played": 1,
+          "results": [
+            "loss"
+          ]
+        }
+      ]
+    },
+    "output": {
+      "strategic_recommendations": {
+        "opening_choices": [
+          {
+            "target_opening": "Scandinavian Defense",
+            "opponent_color": "black",
+            "exploitation_method": "Play this opening as White to exploit opponent's weakness",
+            "specific_lines": [
+              "Play this opening (Scandinavian Defense) as White",
+              "Choose the most forcing variations",
+              "Maintain central tension"
+            ],
+            "reasoning": "Opponent has only 0.0% win rate as Black against this opening"
+          }
+        ],
+        "tactical_approach": [],
+        "psychological_tactics": [
+          "Steer games into opponent's least experienced openings",
+          "Target openings where opponent has played fewer than 3 games",
+          "Use rare but sound variations to take opponent out of preparation",
+          "Create novel positions early in the game"
+        ],
+        "overall_game_plan": "Primary Strategy: Target opponent's weakness in Scandinavian Defense where they score 0.0%.\n\nKey Approach:\n1. Play this opening as White to exploit opponent's weakness\n2. Use tactical complexity to induce errors (opponent averages 8.5 cp loss per move)\n3. Avoid opponent's strongest openings and steer toward their weak areas\n4. Maintain time pressure and create unfamiliar positions\n\nThis strategy exploits both positional weaknesses and tactical vulnerabilities while leveraging psychological pressure."
+      },
+      "confidence_level": "medium",
+      "expected_success_rate": 0.55
+    },
+    "metadata": {
+      "analysis_date": "2025-07-04",
+      "analysis_timestamp": "2025-07-04T13:59:08.967143",
+      "analysis_session_id": "hikaru_20250704_135908",
+      "player_analyzed": "hikaru",
+      "analysis_type": "specific_opening_weakness_exploitation",
+      "data_source": "chess_com_and_lichess_games",
+      "focus_opening": "Scandinavian Defense",
+      "focus_eco": "B01"
+    }
+  },
+  {
+    "input": {
+      "opponent_profile": {
+        "player_name": "hikaru",
+        "analysis_summary": {
+          "total_games_analyzed": 1,
+          "primary_weaknesses_count": 1,
+          "tactical_vulnerability_count": 0
+        }
+      },
+      "opening_weaknesses": [
+        {
+          "opening": "ECO D17",
+          "eco": "D17",
+          "color": "as_black",
+          "win_rate": 0.0,
+          "sample_size": 1,
+          "severity": "high"
+        }
+      ],
+      "tactical_vulnerabilities": [],
+      "experience_gaps": [
+        {
+          "opening": "ECO D17",
+          "eco": "D17",
+          "color": "as_black",
+          "games_played": 1,
+          "results": [
+            "loss"
+          ]
+        }
+      ]
+    },
+    "output": {
+      "strategic_recommendations": {
+        "opening_choices": [
+          {
+            "target_opening": "ECO D17",
+            "opponent_color": "black",
+            "exploitation_method": "Play this opening as White to exploit opponent's weakness",
+            "specific_lines": [
+              "Play this opening (ECO D17) as White",
+              "Choose the most forcing variations",
+              "Maintain central tension"
+            ],
+            "reasoning": "Opponent has only 0.0% win rate as Black against this opening"
+          }
+        ],
+        "tactical_approach": [],
+        "psychological_tactics": [
+          "Steer games into opponent's least experienced openings",
+          "Target openings where opponent has played fewer than 3 games",
+          "Use rare but sound variations to take opponent out of preparation",
+          "Create novel positions early in the game"
+        ],
+        "overall_game_plan": "Primary Strategy: Target opponent's weakness in ECO D17 where they score 0.0%.\n\nKey Approach:\n1. Play this opening as White to exploit opponent's weakness\n2. Use tactical complexity to induce errors (opponent averages 8.5 cp loss per move)\n3. Avoid opponent's strongest openings and steer toward their weak areas\n4. Maintain time pressure and create unfamiliar positions\n\nThis strategy exploits both positional weaknesses and tactical vulnerabilities while leveraging psychological pressure."
+      },
+      "confidence_level": "medium",
+      "expected_success_rate": 0.55
+    },
+    "metadata": {
+      "analysis_date": "2025-07-04",
+      "analysis_timestamp": "2025-07-04T13:59:08.967143",
+      "analysis_session_id": "hikaru_20250704_135908",
+      "player_analyzed": "hikaru",
+      "analysis_type": "specific_opening_weakness_exploitation",
+      "data_source": "chess_com_and_lichess_games",
+      "focus_opening": "ECO D17",
+      "focus_eco": "D17"
+    }
+  },
+  {
+    "input": {
+      "opponent_profile": {
+        "player_name": "hikaru",
+        "platform": "chess.com/lichess",
+        "games_analyzed": 10
+      },
+      "opponent_weaknesses": [
+        "Player hikaru shows weaknesses in opening play:\n- Move 3: played d2d4 instead of f8g7\n- Move 6: played d7d6 instead of b1c3\n- Move 9: played e1g1 instead of g8e7\n- Move 12: played b7b6 instead of d4d5\n- Move 15: played c1g5 instead of g8e7"
+      ],
+      "tactical_vulnerabilities": [],
+      "experience_gaps": []
+    },
+    "output": {
+      "strategic_recommendations": {
+        "overall_game_plan": "Strategy to exploit hikaru's opening weaknesses:\n1. Force complex opening positions\n2. Choose openings that lead to tactical complications\n3. Avoid simplified, theoretical lines\n4. Create early imbalances to increase decision-making pressure",
+        "opening_choices": [
+          {
+            "target_opening": "Tactical openings",
+            "exploitation_method": "Force complex positions",
+            "specific_lines": [
+              "Sicilian Najdorf",
+              "King's Indian Defense",
+              "Dutch Defense"
+            ]
+          }
+        ]
+      },
+      "confidence_level": "high",
+      "expected_success_rate": 0.65
+    },
+    "metadata": {
+      "analysis_date": "2025-07-04",
+      "player_analyzed": "hikaru",
+      "analysis_type": "opening_weaknesses"
+    }
+  },
+  {
+    "input": {
+      "opponent_profile": {
+        "player_name": "hikaru",
+        "platform": "chess.com/lichess",
+        "games_analyzed": 10
+      },
+      "opponent_weaknesses": [
+        "Player hikaru shows tactical vulnerabilities:\n- Move 18: missed g5e7\n- Move 18: missed c2c4\n- Move 18: missed e3f4\n- Move 18: missed f1e1\n- Move 18: missed a1b1"
+      ],
+      "tactical_vulnerabilities": [],
+      "experience_gaps": []
+    },
+    "output": {
+      "strategic_recommendations": {
+        "overall_game_plan": "Strategy to exploit hikaru's tactical weaknesses:\n1. Create tactical complications\n2. Maintain multiple threats\n3. Use tactical motifs they struggle with\n4. Increase time pressure in complex positions",
+        "opening_choices": [
+          {
+            "target_opening": "Tactical systems",
+            "exploitation_method": "Create tactical complexity",
+            "specific_lines": [
+              "Sicilian Dragon",
+              "Alekhine Defense",
+              "Benoni Defense"
+            ]
+          }
+        ]
+      },
+      "confidence_level": "high",
+      "expected_success_rate": 0.7
+    },
+    "metadata": {
+      "analysis_date": "2025-07-04",
+      "player_analyzed": "hikaru",
+      "analysis_type": "tactical_errors"
+    }
+  },
+  {
+    "input": {
+      "opponent_profile": {
+        "player_name": "hikaru",
+        "platform": "chess.com/lichess",
+        "games_analyzed": 10
+      },
+      "opponent_weaknesses": [
+        "Player hikaru shows weaknesses in opening play:\n- Move 3: played d2d4 instead of f8g7\n- Move 6: played d7d6 instead of b1c3\n- Move 9: played e1g1 instead of g8e7\n- Move 12: played b7b6 instead of d4d5\n- Move 15: played c1g5 instead of g8e7"
+      ],
+      "tactical_vulnerabilities": [],
+      "experience_gaps": []
+    },
+    "output": {
+      "strategic_recommendations": {
+        "overall_game_plan": "Strategy to exploit hikaru's opening weaknesses:\n1. Force complex opening positions\n2. Choose openings that lead to tactical complications\n3. Avoid simplified, theoretical lines\n4. Create early imbalances to increase decision-making pressure",
+        "opening_choices": [
+          {
+            "target_opening": "Tactical openings",
+            "exploitation_method": "Force complex positions",
+            "specific_lines": [
+              "Sicilian Najdorf",
+              "King's Indian Defense",
+              "Dutch Defense"
+            ]
+          }
+        ]
+      },
+      "confidence_level": "high",
+      "expected_success_rate": 0.65
+    },
+    "metadata": {
+      "analysis_date": "2025-07-04",
+      "player_analyzed": "hikaru",
+      "analysis_type": "opening_weaknesses"
+    }
+  },
+  {
+    "input": {
+      "opponent_profile": {
+        "player_name": "hikaru",
+        "platform": "chess.com/lichess",
+        "games_analyzed": 10
+      },
+      "opponent_weaknesses": [
+        "Player hikaru shows tactical vulnerabilities:\n- Move 18: missed g5e7\n- Move 18: missed c2c4\n- Move 18: missed e3f4\n- Move 18: missed f1e1\n- Move 18: missed a1b1"
+      ],
+      "tactical_vulnerabilities": [],
+      "experience_gaps": []
+    },
+    "output": {
+      "strategic_recommendations": {
+        "overall_game_plan": "Strategy to exploit hikaru's tactical weaknesses:\n1. Create tactical complications\n2. Maintain multiple threats\n3. Use tactical motifs they struggle with\n4. Increase time pressure in complex positions",
+        "opening_choices": [
+          {
+            "target_opening": "Tactical systems",
+            "exploitation_method": "Create tactical complexity",
+            "specific_lines": [
+              "Sicilian Dragon",
+              "Alekhine Defense",
+              "Benoni Defense"
+            ]
+          }
+        ]
+      },
+      "confidence_level": "high",
+      "expected_success_rate": 0.7
+    },
+    "metadata": {
+      "analysis_date": "2025-07-04",
+      "player_analyzed": "hikaru",
+      "analysis_type": "tactical_errors"
+    }
+  },
+  {
+    "input": {
+      "opponent_profile": {
+        "player_name": "knvb",
+        "platform": "chess.com/lichess",
+        "games_analyzed": 10
+      },
+      "opponent_weaknesses": [
+        "Player knvb shows weaknesses in opening play:\n- Move 3: played g2g3 instead of g8f6\n- Move 6: played g8f6 instead of e1g1\n- Move 9: played d2d3 instead of b8d7\n- Move 12: played e7e6 instead of c2c4\n- Move 15: played f3h4 instead of a7a5"
+      ],
+      "tactical_vulnerabilities": [],
+      "experience_gaps": []
+    },
+    "output": {
+      "strategic_recommendations": {
+        "overall_game_plan": "Strategy to exploit knvb's opening weaknesses:\n1. Force complex opening positions\n2. Choose openings that lead to tactical complications\n3. Avoid simplified, theoretical lines\n4. Create early imbalances to increase decision-making pressure",
+        "opening_choices": [
+          {
+            "target_opening": "Tactical openings",
+            "exploitation_method": "Force complex positions",
+            "specific_lines": [
+              "Sicilian Najdorf",
+              "King's Indian Defense",
+              "Dutch Defense"
+            ]
+          }
+        ]
+      },
+      "confidence_level": "high",
+      "expected_success_rate": 0.65
+    },
+    "metadata": {
+      "analysis_date": "2025-07-04",
+      "player_analyzed": "knvb",
+      "analysis_type": "opening_weaknesses"
+    }
+  },
+  {
+    "input": {
+      "opponent_profile": {
+        "player_name": "knvb",
+        "platform": "chess.com/lichess",
+        "games_analyzed": 10
+      },
+      "opponent_weaknesses": [
+        "Player knvb shows tactical vulnerabilities:\n- Move 18: missed b2b3\n- Move 18: missed c1e3\n- Move 18: missed g2g4\n- Move 18: missed e2e3\n- Move 18: missed f1e2"
+      ],
+      "tactical_vulnerabilities": [],
+      "experience_gaps": []
+    },
+    "output": {
+      "strategic_recommendations": {
+        "overall_game_plan": "Strategy to exploit knvb's tactical weaknesses:\n1. Create tactical complications\n2. Maintain multiple threats\n3. Use tactical motifs they struggle with\n4. Increase time pressure in complex positions",
+        "opening_choices": [
+          {
+            "target_opening": "Tactical systems",
+            "exploitation_method": "Create tactical complexity",
+            "specific_lines": [
+              "Sicilian Dragon",
+              "Alekhine Defense",
+              "Benoni Defense"
+            ]
+          }
+        ]
+      },
+      "confidence_level": "high",
+      "expected_success_rate": 0.7
+    },
+    "metadata": {
+      "analysis_date": "2025-07-04",
+      "player_analyzed": "knvb",
+      "analysis_type": "tactical_errors"
+    }
+  },
+  {
+    "input": {
+      "opponent_profile": {
+        "player_name": "chefshouse",
+        "platform": "chess.com/lichess",
+        "games_analyzed": 10
+      },
+      "opponent_weaknesses": [
+        "Player chefshouse shows weaknesses in opening play:\n- Move 3: played e2e4 instead of e7e5\n- Move 6: played f8e6 instead of d4d5\n- Move 9: played c1c2 instead of e6c5\n- Move 12: played g5h6 instead of f1g3\n- Move 15: played b1d2 instead of g8h8"
+      ],
+      "tactical_vulnerabilities": [],
+      "experience_gaps": []
+    },
+    "output": {
+      "strategic_recommendations": {
+        "overall_game_plan": "Strategy to exploit chefshouse's opening weaknesses:\n1. Force complex opening positions\n2. Choose openings that lead to tactical complications\n3. Avoid simplified, theoretical lines\n4. Create early imbalances to increase decision-making pressure",
+        "opening_choices": [
+          {
+            "target_opening": "Tactical openings",
+            "exploitation_method": "Force complex positions",
+            "specific_lines": [
+              "Sicilian Najdorf",
+              "King's Indian Defense",
+              "Dutch Defense"
+            ]
+          }
+        ]
+      },
+      "confidence_level": "high",
+      "expected_success_rate": 0.65
+    },
+    "metadata": {
+      "analysis_date": "2025-07-04",
+      "player_analyzed": "chefshouse",
+      "analysis_type": "opening_weaknesses"
+    }
+  },
+  {
+    "input": {
+      "opponent_profile": {
+        "player_name": "chefshouse",
+        "platform": "chess.com/lichess",
+        "games_analyzed": 10
+      },
+      "opponent_weaknesses": [
+        "Player chefshouse shows tactical vulnerabilities:\n- Move 18: missed b2b4\n- Move 18: missed g1e3\n- Move 18: missed b1c2\n- Move 18: missed d5c6\n- Move 18: missed h2h4"
+      ],
+      "tactical_vulnerabilities": [],
+      "experience_gaps": []
+    },
+    "output": {
+      "strategic_recommendations": {
+        "overall_game_plan": "Strategy to exploit chefshouse's tactical weaknesses:\n1. Create tactical complications\n2. Maintain multiple threats\n3. Use tactical motifs they struggle with\n4. Increase time pressure in complex positions",
+        "opening_choices": [
+          {
+            "target_opening": "Tactical systems",
+            "exploitation_method": "Create tactical complexity",
+            "specific_lines": [
+              "Sicilian Dragon",
+              "Alekhine Defense",
+              "Benoni Defense"
+            ]
+          }
+        ]
+      },
+      "confidence_level": "high",
+      "expected_success_rate": 0.7
+    },
+    "metadata": {
+      "analysis_date": "2025-07-04",
+      "player_analyzed": "chefshouse",
+      "analysis_type": "tactical_errors"
+    }
+  },
+  {
+    "input": {
+      "opponent_profile": {
+        "player_name": "hikaru",
+        "analysis_summary": {
+          "total_games_analyzed": 7,
+          "primary_weaknesses_count": 5,
+          "tactical_vulnerability_count": 3
+        }
+      },
+      "opening_weaknesses": [
+        {
+          "opening": "ECO C47",
+          "eco": "C47",
+          "color": "as_white",
+          "win_rate": 0.0,
+          "sample_size": 1,
+          "severity": "high"
+        },
+        {
+          "opening": "Scandinavian Defense",
+          "eco": "B01",
+          "color": "as_black",
+          "win_rate": 0.0,
+          "sample_size": 1,
+          "severity": "high"
+        },
+        {
+          "opening": "ECO D17",
+          "eco": "D17",
+          "color": "as_black",
+          "win_rate": 0.0,
+          "sample_size": 1,
+          "severity": "high"
+        },
+        {
+          "opening": "Old Benoni Defense",
+          "eco": "A44",
+          "color": "as_black",
+          "win_rate": 33.33333333333333,
+          "sample_size": 3,
+          "severity": "medium"
+        },
+        {
+          "opening": "Sicilian Defense: Closed",
+          "eco": "B23",
+          "color": "as_white",
+          "win_rate": 100.0,
+          "sample_size": 1,
+          "severity": "low"
+        }
+      ],
+      "tactical_vulnerabilities": [
+        {
+          "opening": "Sicilian Defense: Closed",
+          "eco": "B23",
+          "blunders_per_game": 0.0,
+          "mistakes_per_game": 1.0,
+          "error_rate": 1.0,
+          "games_analyzed": 1
+        },
+        {
+          "opening": "Vienna Game",
+          "eco": "C28",
+          "blunders_per_game": 0.0,
+          "mistakes_per_game": 1.0,
+          "error_rate": 1.0,
+          "games_analyzed": 1
+        },
+        {
+          "opening": "ECO A04",
+          "eco": "A04",
+          "blunders_per_game": 0.0,
+          "mistakes_per_game": 2.0,
+          "error_rate": 2.0,
+          "games_analyzed": 1
+        }
+      ],
+      "experience_gaps": [
+        {
+          "opening": "Sicilian Defense: Closed",
+          "eco": "B23",
+          "color": "as_white",
+          "games_played": 1,
+          "results": [
+            "win"
+          ]
+        },
+        {
+          "opening": "Vienna Game",
+          "eco": "C28",
+          "color": "as_white",
+          "games_played": 1,
+          "results": [
+            "win"
+          ]
+        },
+        {
+          "opening": "ECO B50",
+          "eco": "B50",
+          "color": "as_white",
+          "games_played": 1,
+          "results": [
+            "win"
+          ]
+        },
+        {
+          "opening": "ECO A04",
+          "eco": "A04",
+          "color": "as_white",
+          "games_played": 1,
+          "results": [
+            "win"
+          ]
+        },
+        {
+          "opening": "ECO B07",
+          "eco": "B07",
+          "color": "as_white",
+          "games_played": 1,
+          "results": [
+            "win"
+          ]
+        },
+        {
+          "opening": "Sicilian Defense: Alapin Variation",
+          "eco": "B22",
+          "color": "as_white",
+          "games_played": 1,
+          "results": [
+            "win"
+          ]
+        },
+        {
+          "opening": "ECO B27",
+          "eco": "B27",
+          "color": "as_white",
+          "games_played": 1,
+          "results": [
+            "win"
+          ]
+        },
+        {
+          "opening": "ECO C00",
+          "eco": "C00",
+          "color": "as_white",
+          "games_played": 1,
+          "results": [
+            "win"
+          ]
+        },
+        {
+          "opening": "ECO C47",
+          "eco": "C47",
+          "color": "as_white",
+          "games_played": 1,
+          "results": [
+            "loss"
+          ]
+        },
+        {
+          "opening": "English Opening: Neo-Catalan",
+          "eco": "A13",
+          "color": "as_white",
+          "games_played": 1,
+          "results": [
+            "win"
+          ]
+        },
+        {
+          "opening": "ECO A07",
+          "eco": "A07",
+          "color": "as_white",
+          "games_played": 1,
+          "results": [
+            "win"
+          ]
+        },
+        {
+          "opening": "ECO A48",
+          "eco": "A48",
+          "color": "as_white",
+          "games_played": 1,
+          "results": [
+            "win"
+          ]
+        },
+        {
+          "opening": "Caro-Kann Defense",
+          "eco": "B12",
+          "color": "as_black",
+          "games_played": 2,
+          "results": [
+            "win",
+            "win"
+          ]
+        },
+        {
+          "opening": "Caro-Kann Defense: Forgacs Variation",
+          "eco": "B15",
+          "color": "as_black",
+          "games_played": 1,
+          "results": [
+            "win"
+          ]
+        },
+        {
+          "opening": "Sicilian Defense: Alapin Variation",
+          "eco": "B22",
+          "color": "as_black",
+          "games_played": 1,
+          "results": [
+            "win"
+          ]
+        },
+        {
+          "opening": "Italian Game",
+          "eco": "C55",
+          "color": "as_black",
+          "games_played": 1,
+          "results": [
+            "win"
+          ]
+        },
+        {
+          "opening": "Scandinavian Defense",
+          "eco": "B01",
+          "color": "as_black",
+          "games_played": 1,
+          "results": [
+            "loss"
+          ]
+        },
+        {
+          "opening": "ECO D17",
+          "eco": "D17",
+          "color": "as_black",
+          "games_played": 1,
+          "results": [
+            "loss"
+          ]
+        },
+        {
+          "opening": "ECO A46",
+          "eco": "A46",
+          "color": "as_black",
+          "games_played": 1,
+          "results": [
+            "win"
+          ]
+        },
+        {
+          "opening": "ECO B14",
+          "eco": "B14",
+          "color": "as_black",
+          "games_played": 1,
+          "results": [
+            "win"
+          ]
+        },
+        {
+          "opening": "ECO A35",
+          "eco": "A35",
+          "color": "as_black",
+          "games_played": 1,
+          "results": [
+            "win"
+          ]
+        },
+        {
+          "opening": "ECO A41",
+          "eco": "A41",
+          "color": "as_black",
+          "games_played": 1,
+          "results": [
+            "win"
+          ]
+        },
+        {
+          "opening": "ECO E94",
+          "eco": "E94",
+          "color": "as_black",
+          "games_played": 1,
+          "results": [
+            "win"
+          ]
+        }
+      ]
+    },
+    "output": {
+      "strategic_recommendations": {
+        "opening_choices": [
+          {
+            "target_opening": "ECO C47",
+            "opponent_color": "white",
+            "exploitation_method": "Force opponent into uncomfortable defensive positions",
+            "specific_lines": [
+              "Choose sharp, tactical variations",
+              "Avoid simplified positions",
+              "Create imbalanced pawn structures"
+            ],
+            "reasoning": "Opponent has only 0.0% win rate as White in this opening"
+          },
+          {
+            "target_opening": "Scandinavian Defense",
+            "opponent_color": "black",
+            "exploitation_method": "Play this opening as White to exploit opponent's weakness",
+            "specific_lines": [
+              "Play this opening (Scandinavian Defense) as White",
+              "Choose the most forcing variations",
+              "Maintain central tension"
+            ],
+            "reasoning": "Opponent has only 0.0% win rate as Black against this opening"
+          },
+          {
+            "target_opening": "ECO D17",
+            "opponent_color": "black",
+            "exploitation_method": "Play this opening as White to exploit opponent's weakness",
+            "specific_lines": [
+              "Play this opening (ECO D17) as White",
+              "Choose the most forcing variations",
+              "Maintain central tension"
+            ],
+            "reasoning": "Opponent has only 0.0% win rate as Black against this opening"
+          },
+          {
+            "target_opening": "Old Benoni Defense",
+            "opponent_color": "black",
+            "exploitation_method": "Play this opening as White to exploit opponent's weakness",
+            "specific_lines": [
+              "Play this opening (Old Benoni Defense) as White",
+              "Choose the most forcing variations",
+              "Maintain central tension"
+            ],
+            "reasoning": "Opponent has only 33.3% win rate as Black against this opening"
+          },
+          {
+            "target_opening": "Sicilian Defense: Closed",
+            "opponent_color": "white",
+            "exploitation_method": "Force opponent into uncomfortable defensive positions",
+            "specific_lines": [
+              "Play Sicilian Dragon variation for sharp tactical play",
+              "Consider Sicilian Najdorf for complex middlegame positions",
+              "Use Accelerated Dragon to avoid main theoretical lines"
+            ],
+            "reasoning": "Opponent has only 100.0% win rate as White in this opening"
+          }
+        ],
+        "tactical_approach": [
+          "Seek complex, tactical positions where opponent is prone to errors",
+          "Avoid simplified endgames - keep pieces on the board",
+          "Create multiple threats simultaneously",
+          "Focus on openings where opponent averages 2.0 errors per game"
+        ],
+        "psychological_tactics": [
+          "Steer games into opponent's least experienced openings",
+          "Target openings where opponent has played fewer than 3 games",
+          "Use rare but sound variations to take opponent out of preparation",
+          "Create novel positions early in the game"
+        ],
+        "overall_game_plan": "Primary Strategy: Target opponent's weakness in ECO C47 where they score 0.0%.\n\nKey Approach:\n1. Force opponent into uncomfortable defensive positions\n2. Use tactical complexity to induce errors (opponent averages 8.5 cp loss per move)\n3. Avoid opponent's strongest openings and steer toward their weak areas\n4. Maintain time pressure and create unfamiliar positions\n\nThis strategy exploits both positional weaknesses and tactical vulnerabilities while leveraging psychological pressure."
+      },
+      "confidence_level": "high",
+      "expected_success_rate": 0.55
+    },
+    "metadata": {
+      "analysis_date": "2025-07-04",
+      "analysis_timestamp": "2025-07-04T18:42:18.060481",
+      "analysis_session_id": "hikaru_20250704_184218",
+      "player_analyzed": "hikaru",
+      "analysis_type": "opening_and_tactical_weakness_exploitation",
+      "data_source": "chess_com_and_lichess_games"
+    }
+  },
+  {
+    "input": {
+      "opponent_profile": {
+        "player_name": "hikaru",
+        "analysis_summary": {
+          "total_games_analyzed": 1,
+          "primary_weaknesses_count": 1,
+          "tactical_vulnerability_count": 0
+        }
+      },
+      "opening_weaknesses": [
+        {
+          "opening": "ECO C47",
+          "eco": "C47",
+          "color": "as_white",
+          "win_rate": 0.0,
+          "sample_size": 1,
+          "severity": "high"
+        }
+      ],
+      "tactical_vulnerabilities": [],
+      "experience_gaps": [
+        {
+          "opening": "ECO C47",
+          "eco": "C47",
+          "color": "as_white",
+          "games_played": 1,
+          "results": [
+            "loss"
+          ]
+        }
+      ]
+    },
+    "output": {
+      "strategic_recommendations": {
+        "opening_choices": [
+          {
+            "target_opening": "ECO C47",
+            "opponent_color": "white",
+            "exploitation_method": "Force opponent into uncomfortable defensive positions",
+            "specific_lines": [
+              "Choose sharp, tactical variations",
+              "Avoid simplified positions",
+              "Create imbalanced pawn structures"
+            ],
+            "reasoning": "Opponent has only 0.0% win rate as White in this opening"
+          }
+        ],
+        "tactical_approach": [],
+        "psychological_tactics": [
+          "Steer games into opponent's least experienced openings",
+          "Target openings where opponent has played fewer than 3 games",
+          "Use rare but sound variations to take opponent out of preparation",
+          "Create novel positions early in the game"
+        ],
+        "overall_game_plan": "Primary Strategy: Target opponent's weakness in ECO C47 where they score 0.0%.\n\nKey Approach:\n1. Force opponent into uncomfortable defensive positions\n2. Use tactical complexity to induce errors (opponent averages 8.5 cp loss per move)\n3. Avoid opponent's strongest openings and steer toward their weak areas\n4. Maintain time pressure and create unfamiliar positions\n\nThis strategy exploits both positional weaknesses and tactical vulnerabilities while leveraging psychological pressure."
+      },
+      "confidence_level": "medium",
+      "expected_success_rate": 0.55
+    },
+    "metadata": {
+      "analysis_date": "2025-07-04",
+      "analysis_timestamp": "2025-07-04T18:42:18.060481",
+      "analysis_session_id": "hikaru_20250704_184218",
+      "player_analyzed": "hikaru",
+      "analysis_type": "specific_opening_weakness_exploitation",
+      "data_source": "chess_com_and_lichess_games",
+      "focus_opening": "ECO C47",
+      "focus_eco": "C47"
+    }
+  },
+  {
+    "input": {
+      "opponent_profile": {
+        "player_name": "hikaru",
+        "analysis_summary": {
+          "total_games_analyzed": 1,
+          "primary_weaknesses_count": 1,
+          "tactical_vulnerability_count": 0
+        }
+      },
+      "opening_weaknesses": [
+        {
+          "opening": "Scandinavian Defense",
+          "eco": "B01",
+          "color": "as_black",
+          "win_rate": 0.0,
+          "sample_size": 1,
+          "severity": "high"
+        }
+      ],
+      "tactical_vulnerabilities": [],
+      "experience_gaps": [
+        {
+          "opening": "Scandinavian Defense",
+          "eco": "B01",
+          "color": "as_black",
+          "games_played": 1,
+          "results": [
+            "loss"
+          ]
+        }
+      ]
+    },
+    "output": {
+      "strategic_recommendations": {
+        "opening_choices": [
+          {
+            "target_opening": "Scandinavian Defense",
+            "opponent_color": "black",
+            "exploitation_method": "Play this opening as White to exploit opponent's weakness",
+            "specific_lines": [
+              "Play this opening (Scandinavian Defense) as White",
+              "Choose the most forcing variations",
+              "Maintain central tension"
+            ],
+            "reasoning": "Opponent has only 0.0% win rate as Black against this opening"
+          }
+        ],
+        "tactical_approach": [],
+        "psychological_tactics": [
+          "Steer games into opponent's least experienced openings",
+          "Target openings where opponent has played fewer than 3 games",
+          "Use rare but sound variations to take opponent out of preparation",
+          "Create novel positions early in the game"
+        ],
+        "overall_game_plan": "Primary Strategy: Target opponent's weakness in Scandinavian Defense where they score 0.0%.\n\nKey Approach:\n1. Play this opening as White to exploit opponent's weakness\n2. Use tactical complexity to induce errors (opponent averages 8.5 cp loss per move)\n3. Avoid opponent's strongest openings and steer toward their weak areas\n4. Maintain time pressure and create unfamiliar positions\n\nThis strategy exploits both positional weaknesses and tactical vulnerabilities while leveraging psychological pressure."
+      },
+      "confidence_level": "medium",
+      "expected_success_rate": 0.55
+    },
+    "metadata": {
+      "analysis_date": "2025-07-04",
+      "analysis_timestamp": "2025-07-04T18:42:18.060481",
+      "analysis_session_id": "hikaru_20250704_184218",
+      "player_analyzed": "hikaru",
+      "analysis_type": "specific_opening_weakness_exploitation",
+      "data_source": "chess_com_and_lichess_games",
+      "focus_opening": "Scandinavian Defense",
+      "focus_eco": "B01"
+    }
+  },
+  {
+    "input": {
+      "opponent_profile": {
+        "player_name": "hikaru",
+        "analysis_summary": {
+          "total_games_analyzed": 1,
+          "primary_weaknesses_count": 1,
+          "tactical_vulnerability_count": 0
+        }
+      },
+      "opening_weaknesses": [
+        {
+          "opening": "ECO D17",
+          "eco": "D17",
+          "color": "as_black",
+          "win_rate": 0.0,
+          "sample_size": 1,
+          "severity": "high"
+        }
+      ],
+      "tactical_vulnerabilities": [],
+      "experience_gaps": [
+        {
+          "opening": "ECO D17",
+          "eco": "D17",
+          "color": "as_black",
+          "games_played": 1,
+          "results": [
+            "loss"
+          ]
+        }
+      ]
+    },
+    "output": {
+      "strategic_recommendations": {
+        "opening_choices": [
+          {
+            "target_opening": "ECO D17",
+            "opponent_color": "black",
+            "exploitation_method": "Play this opening as White to exploit opponent's weakness",
+            "specific_lines": [
+              "Play this opening (ECO D17) as White",
+              "Choose the most forcing variations",
+              "Maintain central tension"
+            ],
+            "reasoning": "Opponent has only 0.0% win rate as Black against this opening"
+          }
+        ],
+        "tactical_approach": [],
+        "psychological_tactics": [
+          "Steer games into opponent's least experienced openings",
+          "Target openings where opponent has played fewer than 3 games",
+          "Use rare but sound variations to take opponent out of preparation",
+          "Create novel positions early in the game"
+        ],
+        "overall_game_plan": "Primary Strategy: Target opponent's weakness in ECO D17 where they score 0.0%.\n\nKey Approach:\n1. Play this opening as White to exploit opponent's weakness\n2. Use tactical complexity to induce errors (opponent averages 8.5 cp loss per move)\n3. Avoid opponent's strongest openings and steer toward their weak areas\n4. Maintain time pressure and create unfamiliar positions\n\nThis strategy exploits both positional weaknesses and tactical vulnerabilities while leveraging psychological pressure."
+      },
+      "confidence_level": "medium",
+      "expected_success_rate": 0.55
+    },
+    "metadata": {
+      "analysis_date": "2025-07-04",
+      "analysis_timestamp": "2025-07-04T18:42:18.060481",
+      "analysis_session_id": "hikaru_20250704_184218",
+      "player_analyzed": "hikaru",
+      "analysis_type": "specific_opening_weakness_exploitation",
+      "data_source": "chess_com_and_lichess_games",
+      "focus_opening": "ECO D17",
+      "focus_eco": "D17"
+    }
+  },
+  {
+    "input": {
+      "opponent_profile": {
+        "player_name": "shagnik",
+        "analysis_summary": {
+          "total_games_analyzed": 15,
+          "primary_weaknesses_count": 5,
+          "tactical_vulnerability_count": 4
+        }
+      },
+      "opening_weaknesses": [
+        {
+          "opening": "Sicilian Defense: Alapin Variation",
+          "eco": "B22",
+          "color": "as_white",
+          "win_rate": 0.0,
+          "sample_size": 5,
+          "severity": "high"
+        },
+        {
+          "opening": "ECO B10",
+          "eco": "B10",
+          "color": "as_white",
+          "win_rate": 33.33333333333333,
+          "sample_size": 3,
+          "severity": "medium"
+        },
+        {
+          "opening": "ECO B50",
+          "eco": "B50",
+          "color": "as_white",
+          "win_rate": 0.0,
+          "sample_size": 2,
+          "severity": "high"
+        },
+        {
+          "opening": "ECO C42",
+          "eco": "C42",
+          "color": "as_white",
+          "win_rate": 0.0,
+          "sample_size": 1,
+          "severity": "high"
+        },
+        {
+          "opening": "ECO C45",
+          "eco": "C45",
+          "color": "as_white",
+          "win_rate": 25.0,
+          "sample_size": 4,
+          "severity": "high"
+        }
+      ],
+      "tactical_vulnerabilities": [
+        {
+          "opening": "Modern Defense",
+          "eco": "B06",
+          "blunders_per_game": 1.0,
+          "mistakes_per_game": 1.0,
+          "error_rate": 2.0,
+          "games_analyzed": 1
+        },
+        {
+          "opening": "ECO B50",
+          "eco": "B50",
+          "blunders_per_game": 0.0,
+          "mistakes_per_game": 1.0,
+          "error_rate": 1.0,
+          "games_analyzed": 2
+        },
+        {
+          "opening": "ECO C42",
+          "eco": "C42",
+          "blunders_per_game": 2.0,
+          "mistakes_per_game": 0.0,
+          "error_rate": 2.0,
+          "games_analyzed": 1
+        },
+        {
+          "opening": "ECO B00",
+          "eco": "B00",
+          "blunders_per_game": 0.0,
+          "mistakes_per_game": 2.0,
+          "error_rate": 2.0,
+          "games_analyzed": 1
+        }
+      ],
+      "experience_gaps": [
+        {
+          "opening": "Modern Defense",
+          "eco": "B06",
+          "color": "as_white",
+          "games_played": 1,
+          "results": [
+            "win"
+          ]
+        },
+        {
+          "opening": "ECO B50",
+          "eco": "B50",
+          "color": "as_white",
+          "games_played": 2,
+          "results": [
+            "loss",
+            "loss"
+          ]
+        },
+        {
+          "opening": "ECO C42",
+          "eco": "C42",
+          "color": "as_white",
+          "games_played": 1,
+          "results": [
+            "loss"
+          ]
+        },
+        {
+          "opening": "ECO B13",
+          "eco": "B13",
+          "color": "as_white",
+          "games_played": 2,
+          "results": [
+            "draw",
+            "win"
+          ]
+        },
+        {
+          "opening": "ECO B03",
+          "eco": "B03",
+          "color": "as_white",
+          "games_played": 1,
+          "results": [
+            "loss"
+          ]
+        },
+        {
+          "opening": "ECO D55",
+          "eco": "D55",
+          "color": "as_white",
+          "games_played": 1,
+          "results": [
+            "loss"
+          ]
+        },
+        {
+          "opening": "Scandinavian Defense",
+          "eco": "B01",
+          "color": "as_white",
+          "games_played": 1,
+          "results": [
+            "win"
+          ]
+        },
+        {
+          "opening": "Philidor Defense",
+          "eco": "C41",
+          "color": "as_white",
+          "games_played": 1,
+          "results": [
+            "win"
+          ]
+        },
+        {
+          "opening": "ECO B00",
+          "eco": "B00",
+          "color": "as_white",
+          "games_played": 1,
+          "results": [
+            "win"
+          ]
+        },
+        {
+          "opening": "ECO C44",
+          "eco": "C44",
+          "color": "as_white",
+          "games_played": 1,
+          "results": [
+            "win"
+          ]
+        },
+        {
+          "opening": "English Opening: Carls-Bremen System",
+          "eco": "A22",
+          "color": "as_black",
+          "games_played": 2,
+          "results": [
+            "draw",
+            "win"
+          ]
+        },
+        {
+          "opening": "ECO C44",
+          "eco": "C44",
+          "color": "as_black",
+          "games_played": 1,
+          "results": [
+            "win"
+          ]
+        },
+        {
+          "opening": "ECO C27",
+          "eco": "C27",
+          "color": "as_black",
+          "games_played": 1,
+          "results": [
+            "loss"
+          ]
+        },
+        {
+          "opening": "ECO C54",
+          "eco": "C54",
+          "color": "as_black",
+          "games_played": 2,
+          "results": [
+            "win",
+            "win"
+          ]
+        },
+        {
+          "opening": "Nimzo-Larsen Attack",
+          "eco": "A01",
+          "color": "as_black",
+          "games_played": 1,
+          "results": [
+            "win"
+          ]
+        },
+        {
+          "opening": "ECO C52",
+          "eco": "C52",
+          "color": "as_black",
+          "games_played": 1,
+          "results": [
+            "win"
+          ]
+        },
+        {
+          "opening": "ECO E05",
+          "eco": "E05",
+          "color": "as_black",
+          "games_played": 1,
+          "results": [
+            "win"
+          ]
+        },
+        {
+          "opening": "ECO D05",
+          "eco": "D05",
+          "color": "as_black",
+          "games_played": 1,
+          "results": [
+            "loss"
+          ]
+        },
+        {
+          "opening": "ECO C67",
+          "eco": "C67",
+          "color": "as_black",
+          "games_played": 2,
+          "results": [
+            "draw",
+            "win"
+          ]
+        },
+        {
+          "opening": "ECO C56",
+          "eco": "C56",
+          "color": "as_black",
+          "games_played": 2,
+          "results": [
+            "win",
+            "loss"
+          ]
+        },
+        {
+          "opening": "Uncommon Opening",
+          "eco": "A00",
+          "color": "as_black",
+          "games_played": 2,
+          "results": [
+            "loss",
+            "win"
+          ]
+        },
+        {
+          "opening": "ECO D37",
+          "eco": "D37",
+          "color": "as_black",
+          "games_played": 2,
+          "results": [
+            "win",
+            "loss"
+          ]
+        },
+        {
+          "opening": "ECO C50",
+          "eco": "C50",
+          "color": "as_black",
+          "games_played": 2,
+          "results": [
+            "win",
+            "draw"
+          ]
+        },
+        {
+          "opening": "ECO C21",
+          "eco": "C21",
+          "color": "as_black",
+          "games_played": 1,
+          "results": [
+            "win"
+          ]
+        },
+        {
+          "opening": "ECO C48",
+          "eco": "C48",
+          "color": "as_black",
+          "games_played": 1,
+          "results": [
+            "win"
+          ]
+        },
+        {
+          "opening": "ECO C45",
+          "eco": "C45",
+          "color": "as_black",
+          "games_played": 1,
+          "results": [
+            "draw"
+          ]
+        }
+      ]
+    },
+    "output": {
+      "strategic_recommendations": {
+        "opening_choices": [
+          {
+            "target_opening": "Sicilian Defense: Alapin Variation",
+            "opponent_color": "white",
+            "exploitation_method": "Force opponent into uncomfortable defensive positions",
+            "specific_lines": [
+              "Play Sicilian Dragon variation for sharp tactical play",
+              "Consider Sicilian Najdorf for complex middlegame positions",
+              "Use Accelerated Dragon to avoid main theoretical lines"
+            ],
+            "reasoning": "Opponent has only 0.0% win rate as White in this opening"
+          },
+          {
+            "target_opening": "ECO B10",
+            "opponent_color": "white",
+            "exploitation_method": "Force opponent into uncomfortable defensive positions",
+            "specific_lines": [
+              "Choose sharp, tactical variations",
+              "Avoid simplified positions",
+              "Create imbalanced pawn structures"
+            ],
+            "reasoning": "Opponent has only 33.3% win rate as White in this opening"
+          },
+          {
+            "target_opening": "ECO B50",
+            "opponent_color": "white",
+            "exploitation_method": "Force opponent into uncomfortable defensive positions",
+            "specific_lines": [
+              "Choose sharp, tactical variations",
+              "Avoid simplified positions",
+              "Create imbalanced pawn structures"
+            ],
+            "reasoning": "Opponent has only 0.0% win rate as White in this opening"
+          },
+          {
+            "target_opening": "ECO C42",
+            "opponent_color": "white",
+            "exploitation_method": "Force opponent into uncomfortable defensive positions",
+            "specific_lines": [
+              "Choose sharp, tactical variations",
+              "Avoid simplified positions",
+              "Create imbalanced pawn structures"
+            ],
+            "reasoning": "Opponent has only 0.0% win rate as White in this opening"
+          },
+          {
+            "target_opening": "ECO C45",
+            "opponent_color": "white",
+            "exploitation_method": "Force opponent into uncomfortable defensive positions",
+            "specific_lines": [
+              "Choose sharp, tactical variations",
+              "Avoid simplified positions",
+              "Create imbalanced pawn structures"
+            ],
+            "reasoning": "Opponent has only 25.0% win rate as White in this opening"
+          }
+        ],
+        "tactical_approach": [
+          "Seek complex, tactical positions where opponent is prone to errors",
+          "Avoid simplified endgames - keep pieces on the board",
+          "Create multiple threats simultaneously",
+          "Focus on openings where opponent averages 2.0 errors per game"
+        ],
+        "psychological_tactics": [
+          "Steer games into opponent's least experienced openings",
+          "Target openings where opponent has played fewer than 3 games",
+          "Use rare but sound variations to take opponent out of preparation",
+          "Create novel positions early in the game"
+        ],
+        "overall_game_plan": "Primary Strategy: Target opponent's weakness in Sicilian Defense: Alapin Variation where they score 0.0%.\n\nKey Approach:\n1. Force opponent into uncomfortable defensive positions\n2. Use tactical complexity to induce errors (opponent averages 11.5 cp loss per move)\n3. Avoid opponent's strongest openings and steer toward their weak areas\n4. Maintain time pressure and create unfamiliar positions\n\nThis strategy exploits both positional weaknesses and tactical vulnerabilities while leveraging psychological pressure."
+      },
+      "confidence_level": "high",
+      "expected_success_rate": 0.8
+    },
+    "metadata": {
+      "analysis_date": "2025-07-04",
+      "analysis_timestamp": "2025-07-04T20:10:23.356447",
+      "analysis_session_id": "shagnik_20250704_201023",
+      "player_analyzed": "shagnik",
+      "analysis_type": "opening_and_tactical_weakness_exploitation",
+      "data_source": "chess_com_and_lichess_games"
+    }
+  },
+  {
+    "input": {
+      "opponent_profile": {
+        "player_name": "shagnik",
+        "analysis_summary": {
+          "total_games_analyzed": 5,
+          "primary_weaknesses_count": 1,
+          "tactical_vulnerability_count": 0
+        }
+      },
+      "opening_weaknesses": [
+        {
+          "opening": "Sicilian Defense: Alapin Variation",
+          "eco": "B22",
+          "color": "as_white",
+          "win_rate": 0.0,
+          "sample_size": 5,
+          "severity": "high"
+        }
+      ],
+      "tactical_vulnerabilities": [],
+      "experience_gaps": []
+    },
+    "output": {
+      "strategic_recommendations": {
+        "opening_choices": [
+          {
+            "target_opening": "Sicilian Defense: Alapin Variation",
+            "opponent_color": "white",
+            "exploitation_method": "Force opponent into uncomfortable defensive positions",
+            "specific_lines": [
+              "Play Sicilian Dragon variation for sharp tactical play",
+              "Consider Sicilian Najdorf for complex middlegame positions",
+              "Use Accelerated Dragon to avoid main theoretical lines"
+            ],
+            "reasoning": "Opponent has only 0.0% win rate as White in this opening"
+          }
+        ],
+        "tactical_approach": [],
+        "psychological_tactics": [],
+        "overall_game_plan": "Primary Strategy: Target opponent's weakness in Sicilian Defense: Alapin Variation where they score 0.0%.\n\nKey Approach:\n1. Force opponent into uncomfortable defensive positions\n2. Use tactical complexity to induce errors (opponent averages 11.5 cp loss per move)\n3. Avoid opponent's strongest openings and steer toward their weak areas\n4. Maintain time pressure and create unfamiliar positions\n\nThis strategy exploits both positional weaknesses and tactical vulnerabilities while leveraging psychological pressure."
+      },
+      "confidence_level": "medium",
+      "expected_success_rate": 0.95
+    },
+    "metadata": {
+      "analysis_date": "2025-07-04",
+      "analysis_timestamp": "2025-07-04T20:10:23.356533",
+      "analysis_session_id": "shagnik_20250704_201023",
+      "player_analyzed": "shagnik",
+      "analysis_type": "specific_opening_weakness_exploitation",
+      "data_source": "chess_com_and_lichess_games",
+      "focus_opening": "Sicilian Defense: Alapin Variation",
+      "focus_eco": "B22"
+    }
+  },
+  {
+    "input": {
+      "opponent_profile": {
+        "player_name": "shagnik",
+        "analysis_summary": {
+          "total_games_analyzed": 3,
+          "primary_weaknesses_count": 1,
+          "tactical_vulnerability_count": 0
+        }
+      },
+      "opening_weaknesses": [
+        {
+          "opening": "ECO B10",
+          "eco": "B10",
+          "color": "as_white",
+          "win_rate": 33.33333333333333,
+          "sample_size": 3,
+          "severity": "medium"
+        }
+      ],
+      "tactical_vulnerabilities": [],
+      "experience_gaps": []
+    },
+    "output": {
+      "strategic_recommendations": {
+        "opening_choices": [
+          {
+            "target_opening": "ECO B10",
+            "opponent_color": "white",
+            "exploitation_method": "Force opponent into uncomfortable defensive positions",
+            "specific_lines": [
+              "Choose sharp, tactical variations",
+              "Avoid simplified positions",
+              "Create imbalanced pawn structures"
+            ],
+            "reasoning": "Opponent has only 33.3% win rate as White in this opening"
+          }
+        ],
+        "tactical_approach": [],
+        "psychological_tactics": [],
+        "overall_game_plan": "Primary Strategy: Target opponent's weakness in ECO B10 where they score 33.3%.\n\nKey Approach:\n1. Force opponent into uncomfortable defensive positions\n2. Use tactical complexity to induce errors (opponent averages 11.5 cp loss per move)\n3. Avoid opponent's strongest openings and steer toward their weak areas\n4. Maintain time pressure and create unfamiliar positions\n\nThis strategy exploits both positional weaknesses and tactical vulnerabilities while leveraging psychological pressure."
+      },
+      "confidence_level": "medium",
+      "expected_success_rate": 0.55
+    },
+    "metadata": {
+      "analysis_date": "2025-07-04",
+      "analysis_timestamp": "2025-07-04T20:10:23.356576",
+      "analysis_session_id": "shagnik_20250704_201023",
+      "player_analyzed": "shagnik",
+      "analysis_type": "specific_opening_weakness_exploitation",
+      "data_source": "chess_com_and_lichess_games",
+      "focus_opening": "ECO B10",
+      "focus_eco": "B10"
+    }
+  },
+  {
+    "input": {
+      "opponent_profile": {
+        "player_name": "shagnik",
+        "analysis_summary": {
+          "total_games_analyzed": 2,
+          "primary_weaknesses_count": 1,
+          "tactical_vulnerability_count": 1
+        }
+      },
+      "opening_weaknesses": [
+        {
+          "opening": "ECO B50",
+          "eco": "B50",
+          "color": "as_white",
+          "win_rate": 0.0,
+          "sample_size": 2,
+          "severity": "high"
+        }
+      ],
+      "tactical_vulnerabilities": [
+        {
+          "opening": "ECO B50",
+          "eco": "B50",
+          "blunders_per_game": 0.0,
+          "mistakes_per_game": 1.0,
+          "error_rate": 1.0,
+          "games_analyzed": 2
+        }
+      ],
+      "experience_gaps": [
+        {
+          "opening": "ECO B50",
+          "eco": "B50",
+          "color": "as_white",
+          "games_played": 2,
+          "results": [
+            "loss",
+            "loss"
+          ]
+        }
+      ]
+    },
+    "output": {
+      "strategic_recommendations": {
+        "opening_choices": [
+          {
+            "target_opening": "ECO B50",
+            "opponent_color": "white",
+            "exploitation_method": "Force opponent into uncomfortable defensive positions",
+            "specific_lines": [
+              "Choose sharp, tactical variations",
+              "Avoid simplified positions",
+              "Create imbalanced pawn structures"
+            ],
+            "reasoning": "Opponent has only 0.0% win rate as White in this opening"
+          }
+        ],
+        "tactical_approach": [
+          "Create moderate tactical complexity",
+          "Look for opportunities to increase time pressure",
+          "Focus on positional pressure rather than tactics"
+        ],
+        "psychological_tactics": [
+          "Steer games into opponent's least experienced openings",
+          "Target openings where opponent has played fewer than 3 games",
+          "Use rare but sound variations to take opponent out of preparation",
+          "Create novel positions early in the game"
+        ],
+        "overall_game_plan": "Primary Strategy: Target opponent's weakness in ECO B50 where they score 0.0%.\n\nKey Approach:\n1. Force opponent into uncomfortable defensive positions\n2. Use tactical complexity to induce errors (opponent averages 11.5 cp loss per move)\n3. Avoid opponent's strongest openings and steer toward their weak areas\n4. Maintain time pressure and create unfamiliar positions\n\nThis strategy exploits both positional weaknesses and tactical vulnerabilities while leveraging psychological pressure."
+      },
+      "confidence_level": "medium",
+      "expected_success_rate": 0.55
+    },
+    "metadata": {
+      "analysis_date": "2025-07-04",
+      "analysis_timestamp": "2025-07-04T20:10:23.356621",
+      "analysis_session_id": "shagnik_20250704_201023",
+      "player_analyzed": "shagnik",
+      "analysis_type": "specific_opening_weakness_exploitation",
+      "data_source": "chess_com_and_lichess_games",
+      "focus_opening": "ECO B50",
+      "focus_eco": "B50"
+    }
+  }
+]

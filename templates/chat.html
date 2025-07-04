@@ -1,0 +1,536 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Chess Strategy AI</title>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/socket.io/4.0.1/socket.io.js"></script>
+    <link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css" rel="stylesheet">
+    <style>
+        * {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+        }
+
+        body {
+            font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, sans-serif;
+            background: linear-gradient(135deg, #1e3c72 0%, #2a5298 100%);
+            height: 100vh;
+            overflow: hidden;
+        }
+
+        .chat-container {
+            display: flex;
+            flex-direction: column;
+            height: 100vh;
+            max-width: 900px;
+            margin: 0 auto;
+            background: white;
+            box-shadow: 0 0 30px rgba(0,0,0,0.1);
+        }
+
+        .header {
+            background: linear-gradient(135deg, #667eea 0%, #764ba2 100%);
+            color: white;
+            padding: 20px;
+            text-align: center;
+            box-shadow: 0 2px 10px rgba(0,0,0,0.1);
+        }
+
+        .header h1 {
+            font-size: 24px;
+            margin-bottom: 5px;
+        }
+
+        .header p {
+            opacity: 0.9;
+            font-size: 14px;
+        }
+
+        .chat-messages {
+            flex: 1;
+            overflow-y: auto;
+            padding: 20px;
+            background: #f8f9fa;
+        }
+
+        .message {
+            margin-bottom: 20px;
+            display: flex;
+            align-items: flex-start;
+            gap: 12px;
+        }
+
+        .message.user {
+            flex-direction: row-reverse;
+        }
+
+        .message-avatar {
+            width: 40px;
+            height: 40px;
+            border-radius: 50%;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            font-weight: bold;
+            font-size: 14px;
+            flex-shrink: 0;
+        }
+
+        .user .message-avatar {
+            background: linear-gradient(135deg, #667eea 0%, #764ba2 100%);
+            color: white;
+        }
+
+        .assistant .message-avatar {
+            background: linear-gradient(135deg, #f093fb 0%, #f5576c 100%);
+            color: white;
+        }
+
+        .message-content {
+            max-width: 70%;
+            padding: 15px 20px;
+            border-radius: 18px;
+            position: relative;
+        }
+
+        .user .message-content {
+            background: linear-gradient(135deg, #667eea 0%, #764ba2 100%);
+            color: white;
+            border-bottom-right-radius: 4px;
+        }
+
+        .assistant .message-content {
+            background: white;
+            border: 1px solid #e1e5e9;
+            border-bottom-left-radius: 4px;
+            box-shadow: 0 1px 3px rgba(0,0,0,0.1);
+        }
+
+        .strategy-card {
+            background: #f8f9fa;
+            border: 1px solid #e9ecef;
+            border-radius: 12px;
+            padding: 15px;
+            margin: 10px 0;
+        }
+
+        .strategy-section {
+            margin-bottom: 15px;
+        }
+
+        .strategy-section h4 {
+            color: #495057;
+            margin-bottom: 8px;
+            display: flex;
+            align-items: center;
+            gap: 8px;
+        }
+
+        .opening-recommendation {
+            background: white;
+            border: 1px solid #dee2e6;
+            border-radius: 8px;
+            padding: 12px;
+            margin-bottom: 10px;
+        }
+
+        .opening-target {
+            font-weight: bold;
+            color: #28a745;
+            margin-bottom: 5px;
+        }
+
+        .tactical-item {
+            display: flex;
+            align-items: center;
+            gap: 8px;
+            padding: 5px 0;
+            color: #6c757d;
+        }
+
+        .success-rate {
+            background: linear-gradient(135deg, #28a745 0%, #20c997 100%);
+            color: white;
+            padding: 8px 15px;
+            border-radius: 20px;
+            text-align: center;
+            font-weight: bold;
+            margin-top: 10px;
+        }
+
+        .input-container {
+            padding: 20px;
+            background: white;
+            border-top: 1px solid #e1e5e9;
+        }
+
+        .input-form {
+            display: flex;
+            gap: 12px;
+            align-items: center;
+        }
+
+        .input-field {
+            flex: 1;
+            padding: 15px 20px;
+            border: 2px solid #e1e5e9;
+            border-radius: 25px;
+            font-size: 16px;
+            outline: none;
+            transition: border-color 0.3s;
+        }
+
+        .input-field:focus {
+            border-color: #667eea;
+        }
+
+        .send-button {
+            width: 50px;
+            height: 50px;
+            border: none;
+            border-radius: 50%;
+            background: linear-gradient(135deg, #667eea 0%, #764ba2 100%);
+            color: white;
+            cursor: pointer;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            transition: transform 0.2s;
+        }
+
+        .send-button:hover {
+            transform: scale(1.05);
+        }
+
+        .send-button:disabled {
+            opacity: 0.5;
+            cursor: not-allowed;
+        }
+
+        .status-message {
+            background: #e3f2fd;
+            border: 1px solid #bbdefb;
+            border-radius: 12px;
+            padding: 15px;
+            margin: 10px 0;
+            color: #1976d2;
+            display: flex;
+            align-items: center;
+            gap: 10px;
+        }
+
+        .error-message {
+            background: #ffebee;
+            border: 1px solid #ffcdd2;
+            border-radius: 12px;
+            padding: 15px;
+            margin: 10px 0;
+            color: #c62828;
+            display: flex;
+            align-items: center;
+            gap: 10px;
+        }
+
+        .loading-spinner {
+            width: 20px;
+            height: 20px;
+            border: 2px solid #f3f3f3;
+            border-top: 2px solid #1976d2;
+            border-radius: 50%;
+            animation: spin 1s linear infinite;
+        }
+
+        @keyframes spin {
+            0% { transform: rotate(0deg); }
+            100% { transform: rotate(360deg); }
+        }
+
+        .welcome-message {
+            text-align: center;
+            padding: 40px 20px;
+            color: #6c757d;
+        }
+
+        .welcome-message h3 {
+            margin-bottom: 10px;
+            color: #495057;
+        }
+
+        .example-usernames {
+            display: flex;
+            gap: 10px;
+            justify-content: center;
+            margin-top: 15px;
+        }
+
+        .example-username {
+            padding: 8px 15px;
+            background: #e9ecef;
+            border-radius: 20px;
+            cursor: pointer;
+            font-size: 12px;
+            transition: background 0.3s;
+        }
+
+        .example-username:hover {
+            background: #667eea;
+            color: white;
+        }
+
+        @media (max-width: 768px) {
+            .chat-container {
+                height: 100vh;
+            }
+            
+            .message-content {
+                max-width: 85%;
+            }
+        }
+    </style>
+</head>
+<body>
+    <div class="chat-container">
+        <div class="header">
+            <h1><i class="fas fa-chess"></i> Chess Strategy AI</h1>
+            <p>Analyze your opponents and get winning strategies powered by AI</p>
+        </div>
+
+        <div class="chat-messages" id="chatMessages">
+            <div class="welcome-message">
+                <h3>🏆 Welcome to Chess Strategy AI!</h3>
+                <p>Enter your opponent's Chess.com username to get personalized strategies and exploit their weaknesses.</p>
+                <div class="example-usernames">
+                    <div class="example-username" onclick="setUsername('hikaru')">hikaru</div>
+                    <div class="example-username" onclick="setUsername('magnus')">magnus</div>
+                    <div class="example-username" onclick="setUsername('levy')">levy</div>
+                </div>
+            </div>
+        </div>
+
+        <div class="input-container">
+            <div class="input-form">
+                <input 
+                    type="text" 
+                    id="usernameInput" 
+                    class="input-field" 
+                    placeholder="Enter opponent's Chess.com username..."
+                    autocomplete="off"
+                >
+                <button id="sendButton" class="send-button" onclick="analyzeOpponent()">
+                    <i class="fas fa-paper-plane"></i>
+                </button>
+            </div>
+        </div>
+    </div>
+
+    <script>
+        // Initialize Socket.IO
+        const socket = io();
+        let sessionId = null;
+
+        // DOM elements
+        const chatMessages = document.getElementById('chatMessages');
+        const usernameInput = document.getElementById('usernameInput');
+        const sendButton = document.getElementById('sendButton');
+
+        // Socket event handlers
+        socket.on('connected', (data) => {
+            sessionId = data.session_id;
+            console.log('Connected with session ID:', sessionId);
+        });
+
+        socket.on('status', (data) => {
+            addStatusMessage(data.message);
+        });
+
+        socket.on('strategy_complete', (strategy) => {
+            addStrategyMessage(strategy);
+            enableInput();
+        });
+
+        socket.on('error', (data) => {
+            addErrorMessage(data.message);
+            enableInput();
+        });
+
+        // Input handlers
+        usernameInput.addEventListener('keypress', (e) => {
+            if (e.key === 'Enter') {
+                analyzeOpponent();
+            }
+        });
+
+        function setUsername(username) {
+            usernameInput.value = username;
+            usernameInput.focus();
+        }
+
+        function analyzeOpponent() {
+            const username = usernameInput.value.trim();
+            if (!username) {
+                addErrorMessage('Please enter a username');
+                return;
+            }
+
+            // Clear welcome message
+            const welcomeMessage = document.querySelector('.welcome-message');
+            if (welcomeMessage) {
+                welcomeMessage.remove();
+            }
+
+            // Add user message
+            addUserMessage(`Analyze opponent: ${username}`);
+
+            // Disable input
+            disableInput();
+
+            // Send analysis request
+            socket.emit('analyze_opponent', {
+                username: username,
+                session_id: sessionId
+            });
+
+            // Clear input
+            usernameInput.value = '';
+        }
+
+        function addUserMessage(message) {
+            const messageDiv = document.createElement('div');
+            messageDiv.className = 'message user';
+            messageDiv.innerHTML = `
+                <div class="message-avatar">U</div>
+                <div class="message-content">${message}</div>
+            `;
+            chatMessages.appendChild(messageDiv);
+            scrollToBottom();
+        }
+
+        function addStatusMessage(message) {
+            const messageDiv = document.createElement('div');
+            messageDiv.className = 'message assistant';
+            messageDiv.innerHTML = `
+                <div class="message-avatar"><i class="fas fa-robot"></i></div>
+                <div class="message-content">
+                    <div class="status-message">
+                        <div class="loading-spinner"></div>
+                        ${message}
+                    </div>
+                </div>
+            `;
+            chatMessages.appendChild(messageDiv);
+            scrollToBottom();
+        }
+
+        function addErrorMessage(message) {
+            const messageDiv = document.createElement('div');
+            messageDiv.className = 'message assistant';
+            messageDiv.innerHTML = `
+                <div class="message-avatar"><i class="fas fa-robot"></i></div>
+                <div class="message-content">
+                    <div class="error-message">
+                        <i class="fas fa-exclamation-triangle"></i>
+                        ${message}
+                    </div>
+                </div>
+            `;
+            chatMessages.appendChild(messageDiv);
+            scrollToBottom();
+        }
+
+        function addStrategyMessage(strategy) {
+            let strategyHtml = `<div class="strategy-card">`;
+            
+            // Header
+            strategyHtml += `
+                <div class="strategy-section">
+                    <h4><i class="fas fa-target"></i> Strategy for ${strategy.opponent}</h4>
+                    <small style="color: #6c757d;">Generated at ${new Date(strategy.analysis_timestamp).toLocaleString()}</small>
+                </div>
+            `;
+
+            // Opening recommendations
+            if (strategy.opening_recommendations && strategy.opening_recommendations.length > 0) {
+                strategyHtml += `
+                    <div class="strategy-section">
+                        <h4><i class="fas fa-chess-board"></i> Opening Recommendations</h4>
+                `;
+                
+                strategy.opening_recommendations.forEach((opening, index) => {
+                    strategyHtml += `
+                        <div class="opening-recommendation">
+                            <div class="opening-target">${index + 1}. ${opening.target || 'N/A'}</div>
+                            <div><strong>Method:</strong> ${opening.method || 'N/A'}</div>
+                            ${opening.lines ? `<div><strong>Lines:</strong> ${opening.lines}</div>` : ''}
+                            ${opening.reasoning ? `<div><strong>Reasoning:</strong> ${opening.reasoning}</div>` : ''}
+                        </div>
+                    `;
+                });
+                
+                strategyHtml += `</div>`;
+            }
+
+            // Tactical approach
+            if (strategy.tactical_approach && strategy.tactical_approach.length > 0) {
+                strategyHtml += `
+                    <div class="strategy-section">
+                        <h4><i class="fas fa-chess-knight"></i> Tactical Approach</h4>
+                `;
+                
+                strategy.tactical_approach.forEach(tactic => {
+                    strategyHtml += `
+                        <div class="tactical-item">
+                            <i class="fas fa-arrow-right" style="color: #28a745;"></i>
+                            ${tactic}
+                        </div>
+                    `;
+                });
+                
+                strategyHtml += `</div>`;
+            }
+
+            // Success rate
+            if (strategy.success_rate) {
+                strategyHtml += `
+                    <div class="success-rate">
+                        <i class="fas fa-chart-line"></i> Expected Success Rate: ${strategy.success_rate}%
+                    </div>
+                `;
+            }
+
+            strategyHtml += `</div>`;
+
+            const messageDiv = document.createElement('div');
+            messageDiv.className = 'message assistant';
+            messageDiv.innerHTML = `
+                <div class="message-avatar"><i class="fas fa-robot"></i></div>
+                <div class="message-content">
+                    ${strategyHtml}
+                </div>
+            `;
+            
+            chatMessages.appendChild(messageDiv);
+            scrollToBottom();
+        }
+
+        function disableInput() {
+            usernameInput.disabled = true;
+            sendButton.disabled = true;
+        }
+
+        function enableInput() {
+            usernameInput.disabled = false;
+            sendButton.disabled = false;
+            usernameInput.focus();
+        }
+
+        function scrollToBottom() {
+            chatMessages.scrollTop = chatMessages.scrollHeight;
+        }
+
+        // Initialize
+        usernameInput.focus();
+    </script>
+</body>
+</html>

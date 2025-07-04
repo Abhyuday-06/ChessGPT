@@ -1,0 +1,303 @@
+<|input|>Analyze opponent Hikaru:
+Opening Weaknesses:
+- ECO C47 as white: 0.0% win rate
+- Scandinavian Defense as black: 0.0% win rate
+- ECO D17 as black: 0.0% win rate
+- Old Benoni Defense as black: 33.3% win rate
+- Sicilian Defense: Closed as white: 100.0% win rate
+Tactical Issues:
+- Sicilian Defense: Closed: 1.0 errors per game
+- Vienna Game: 1.0 errors per game
+- ECO A04: 2.0 errors per game
+<|output|>Strategic Recommendations:
+Opening Strategy:
+- Target ECO C47: Force opponent into uncomfortable defensive positions
+  • Choose sharp, tactical variations
+  • Avoid simplified positions
+- Target Scandinavian Defense: Play this opening as White to exploit opponent's weakness
+  • Play this opening (Scandinavian Defense) as White
+  • Choose the most forcing variations
+- Target ECO D17: Play this opening as White to exploit opponent's weakness
+  • Play this opening (ECO D17) as White
+  • Choose the most forcing variations
+- Target Old Benoni Defense: Play this opening as White to exploit opponent's weakness
+  • Play this opening (Old Benoni Defense) as White
+  • Choose the most forcing variations
+- Target Sicilian Defense: Closed: Force opponent into uncomfortable defensive positions
+  • Play Sicilian Dragon variation for sharp tactical play
+  • Consider Sicilian Najdorf for complex middlegame positions
+Tactical Approach:
+- Seek complex, tactical positions where opponent is prone to errors
+- Avoid simplified endgames - keep pieces on the board
+- Create multiple threats simultaneously
+Overall: Primary Strategy: Target opponent's weakness in ECO C47 where they score 0.0%.
+
+Key Approach:
+1. Force opponent into uncomfortable defensive positions
+2. Use tactical complexity to induce errors (oppo...
+<|end|>
+
+<|input|>Analyze opponent Hikaru:
+Opening Weaknesses:
+- ECO C47 as white: 0.0% win rate
+<|output|>Strategic Recommendations:
+Opening Strategy:
+- Target ECO C47: Force opponent into uncomfortable defensive positions
+  • Choose sharp, tactical variations
+  • Avoid simplified positions
+Overall: Primary Strategy: Target opponent's weakness in ECO C47 where they score 0.0%.
+
+Key Approach:
+1. Force opponent into uncomfortable defensive positions
+2. Use tactical complexity to induce errors (oppo...
+<|end|>
+
+<|input|>Analyze opponent Hikaru:
+Opening Weaknesses:
+- Scandinavian Defense as black: 0.0% win rate
+<|output|>Strategic Recommendations:
+Opening Strategy:
+- Target Scandinavian Defense: Play this opening as White to exploit opponent's weakness
+  • Play this opening (Scandinavian Defense) as White
+  • Choose the most forcing variations
+Overall: Primary Strategy: Target opponent's weakness in Scandinavian Defense where they score 0.0%.
+
+Key Approach:
+1. Play this opening as White to exploit opponent's weakness
+2. Use tactical complexity to in...
+<|end|>
+
+<|input|>Analyze opponent Hikaru:
+Opening Weaknesses:
+- ECO D17 as black: 0.0% win rate
+<|output|>Strategic Recommendations:
+Opening Strategy:
+- Target ECO D17: Play this opening as White to exploit opponent's weakness
+  • Play this opening (ECO D17) as White
+  • Choose the most forcing variations
+Overall: Primary Strategy: Target opponent's weakness in ECO D17 where they score 0.0%.
+
+Key Approach:
+1. Play this opening as White to exploit opponent's weakness
+2. Use tactical complexity to induce errors (...
+<|end|>
+
+<|input|>Analyze opponent magnus:
+Opening Weaknesses:
+- ECO A03 as white: 100.0% win rate
+- Scandinavian Defense as black: 100.0% win rate
+Tactical Issues:
+- ECO A03: 3.0 errors per game
+<|output|>Strategic Recommendations:
+Opening Strategy:
+- Target ECO A03: Force opponent into uncomfortable defensive positions
+  • Choose sharp, tactical variations
+  • Avoid simplified positions
+- Target Scandinavian Defense: Play this opening as White to exploit opponent's weakness
+  • Play this opening (Scandinavian Defense) as White
+  • Choose the most forcing variations
+Tactical Approach:
+- Seek complex, tactical positions where opponent is prone to errors
+- Avoid simplified endgames - keep pieces on the board
+- Create multiple threats simultaneously
+Overall: Primary Strategy: Target opponent's weakness in ECO A03 where they score 100.0%.
+
+Key Approach:
+1. Force opponent into uncomfortable defensive positions
+2. Use tactical complexity to induce errors (op...
+<|end|>
+
+<|input|>Analyze opponent magnus:
+Opening Weaknesses:
+- ECO A03 as white: 100.0% win rate
+Tactical Issues:
+- ECO A03: 3.0 errors per game
+<|output|>Strategic Recommendations:
+Opening Strategy:
+- Target ECO A03: Force opponent into uncomfortable defensive positions
+  • Choose sharp, tactical variations
+  • Avoid simplified positions
+Tactical Approach:
+- Seek complex, tactical positions where opponent is prone to errors
+- Avoid simplified endgames - keep pieces on the board
+- Create multiple threats simultaneously
+Overall: Primary Strategy: Target opponent's weakness in ECO A03 where they score 100.0%.
+
+Key Approach:
+1. Force opponent into uncomfortable defensive positions
+2. Use tactical complexity to induce errors (op...
+<|end|>
+
+<|input|>Analyze opponent magnus:
+Opening Weaknesses:
+- Scandinavian Defense as black: 100.0% win rate
+<|output|>Strategic Recommendations:
+Opening Strategy:
+- Target Scandinavian Defense: Play this opening as White to exploit opponent's weakness
+  • Play this opening (Scandinavian Defense) as White
+  • Choose the most forcing variations
+Overall: Primary Strategy: Target opponent's weakness in Scandinavian Defense where they score 100.0%.
+
+Key Approach:
+1. Play this opening as White to exploit opponent's weakness
+2. Use tactical complexity to ...
+<|end|>
+
+<|input|>Analyze opponent levy:
+Opening Weaknesses:
+- Uncommon Opening as white: 0.0% win rate
+- ECO C20 as white: 0.0% win rate
+- ECO B00 as black: 0.0% win rate
+- Scandinavian Defense as black: 0.0% win rate
+- Uncommon Opening as black: 100.0% win rate
+<|output|>Strategic Recommendations:
+Opening Strategy:
+- Target Uncommon Opening: Force opponent into uncomfortable defensive positions
+  • Choose sharp, tactical variations
+  • Avoid simplified positions
+- Target ECO C20: Force opponent into uncomfortable defensive positions
+  • Choose sharp, tactical variations
+  • Avoid simplified positions
+- Target ECO B00: Play this opening as White to exploit opponent's weakness
+  • Play this opening (ECO B00) as White
+  • Choose the most forcing variations
+- Target Scandinavian Defense: Play this opening as White to exploit opponent's weakness
+  • Play this opening (Scandinavian Defense) as White
+  • Choose the most forcing variations
+- Target Uncommon Opening: Play this opening as White to exploit opponent's weakness
+  • Play this opening (Uncommon Opening) as White
+  • Choose the most forcing variations
+Overall: Primary Strategy: Target opponent's weakness in Uncommon Opening where they score 0.0%.
+
+Key Approach:
+1. Force opponent into uncomfortable defensive positions
+2. Use tactical complexity to induce err...
+<|end|>
+
+<|input|>Analyze opponent levy:
+Opening Weaknesses:
+- Uncommon Opening as white: 0.0% win rate
+<|output|>Strategic Recommendations:
+Opening Strategy:
+- Target Uncommon Opening: Force opponent into uncomfortable defensive positions
+  • Choose sharp, tactical variations
+  • Avoid simplified positions
+Overall: Primary Strategy: Target opponent's weakness in Uncommon Opening where they score 0.0%.
+
+Key Approach:
+1. Force opponent into uncomfortable defensive positions
+2. Use tactical complexity to induce err...
+<|end|>
+
+<|input|>Analyze opponent levy:
+Opening Weaknesses:
+- ECO C20 as white: 0.0% win rate
+<|output|>Strategic Recommendations:
+Opening Strategy:
+- Target ECO C20: Force opponent into uncomfortable defensive positions
+  • Choose sharp, tactical variations
+  • Avoid simplified positions
+Overall: Primary Strategy: Target opponent's weakness in ECO C20 where they score 0.0%.
+
+Key Approach:
+1. Force opponent into uncomfortable defensive positions
+2. Use tactical complexity to induce errors (oppo...
+<|end|>
+
+<|input|>Analyze opponent levy:
+Opening Weaknesses:
+- ECO B00 as black: 0.0% win rate
+<|output|>Strategic Recommendations:
+Opening Strategy:
+- Target ECO B00: Play this opening as White to exploit opponent's weakness
+  • Play this opening (ECO B00) as White
+  • Choose the most forcing variations
+Overall: Primary Strategy: Target opponent's weakness in ECO B00 where they score 0.0%.
+
+Key Approach:
+1. Play this opening as White to exploit opponent's weakness
+2. Use tactical complexity to induce errors (...
+<|end|>
+
+<|input|>Analyze opponent MyBoyMagnusGiri:
+Opening Weaknesses:
+- ECO E21 as white: 0.0% win rate
+- Uncommon Opening as white: 0.0% win rate
+- ECO B51 as black: 0.0% win rate
+- ECO E73 as black: 0.0% win rate
+- ECO E90 as black: 0.0% win rate
+Tactical Issues:
+- ECO D21: 2.0 errors per game
+<|output|>Strategic Recommendations:
+Opening Strategy:
+- Target ECO E21: Force opponent into uncomfortable defensive positions
+  • Choose sharp, tactical variations
+  • Avoid simplified positions
+- Target Uncommon Opening: Force opponent into uncomfortable defensive positions
+  • Choose sharp, tactical variations
+  • Avoid simplified positions
+- Target ECO B51: Play this opening as White to exploit opponent's weakness
+  • Play this opening (ECO B51) as White
+  • Choose the most forcing variations
+- Target ECO E73: Play this opening as White to exploit opponent's weakness
+  • Play this opening (ECO E73) as White
+  • Choose the most forcing variations
+- Target ECO E90: Play this opening as White to exploit opponent's weakness
+  • Play this opening (ECO E90) as White
+  • Choose the most forcing variations
+Tactical Approach:
+- Seek complex, tactical positions where opponent is prone to errors
+- Avoid simplified endgames - keep pieces on the board
+- Create multiple threats simultaneously
+Overall: Primary Strategy: Target opponent's weakness in ECO E21 where they score 0.0%.
+
+Key Approach:
+1. Force opponent into uncomfortable defensive positions
+2. Use tactical complexity to induce errors (oppo...
+<|end|>
+
+<|input|>Analyze opponent MyBoyMagnusGiri:
+Opening Weaknesses:
+- ECO E21 as white: 0.0% win rate
+<|output|>Strategic Recommendations:
+Opening Strategy:
+- Target ECO E21: Force opponent into uncomfortable defensive positions
+  • Choose sharp, tactical variations
+  • Avoid simplified positions
+Overall: Primary Strategy: Target opponent's weakness in ECO E21 where they score 0.0%.
+
+Key Approach:
+1. Force opponent into uncomfortable defensive positions
+2. Use tactical complexity to induce errors (oppo...
+<|end|>
+
+<|input|>Analyze opponent MyBoyMagnusGiri:
+Opening Weaknesses:
+- Uncommon Opening as white: 0.0% win rate
+<|output|>Strategic Recommendations:
+Opening Strategy:
+- Target Uncommon Opening: Force opponent into uncomfortable defensive positions
+  • Choose sharp, tactical variations
+  • Avoid simplified positions
+Overall: Primary Strategy: Target opponent's weakness in Uncommon Opening where they score 0.0%.
+
+Key Approach:
+1. Force opponent into uncomfortable defensive positions
+2. Use tactical complexity to induce err...
+<|end|>
+
+<|input|>Analyze opponent MyBoyMagnusGiri:
+Opening Weaknesses:
+- ECO B51 as black: 0.0% win rate
+<|output|>Strategic Recommendations:
+Opening Strategy:
+- Target ECO B51: Play this opening as White to exploit opponent's weakness
+  • Play this opening (ECO B51) as White
+  • Choose the most forcing variations
+Overall: Primary Strategy: Target opponent's weakness in ECO B51 where they score 0.0%.
+
+Key Approach:
+1. Play this opening as White to exploit opponent's weakness
+2. Use tactical complexity to induce errors (...
+<|end|>
+
