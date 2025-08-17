@@ -7,13 +7,14 @@ import chess.engine
 import platform
 import os
 import io
+import datetime
+import urllib.parse
 from pathlib import Path
 from collections import defaultdict
 
 ### STEP 1: Get User Input and Platform Selection ###
 
 import sys
-import datetime
 
 # Get username and platform from user input
 if len(sys.argv) > 2:
@@ -1075,6 +1076,53 @@ print("- Mistakes: Moves losing 100-199 centipawns")
 print("- Inaccuracies: Moves losing 50-99 centipawns")
 print("- Analysis covers the first 10 moves (20 ply) from each side")
 
+### STEP 8: Generate Research Paper Visualizations ###
+
+def generate_research_visualizations(all_games, player_stats, weakness_report, tactical_analysis, target_username):
+    """Generate all visualizations for research paper"""
+    
+    print(f"\n### GENERATING RESEARCH VISUALIZATIONS ###")
+    print("Creating visual analyses for research paper...")
+    
+    try:
+        # Import visualization modules
+        from visualization_generator import generate_all_visualizations
+        from advanced_visualizations import generate_advanced_visualizations
+        
+        # Generate standard visualizations
+        generate_all_visualizations(all_games, player_stats, weakness_report, tactical_analysis, target_username)
+        
+        # Generate advanced visualizations
+        generate_advanced_visualizations(player_stats, weakness_report, tactical_analysis, target_username)
+        
+        print("\n🎉 ALL VISUALIZATIONS COMPLETE! 🎉")
+        print("=" * 60)
+        print("📁 Check the 'visualizations' folder for all generated charts")
+        print("📄 Review 'visualization_report.md' for detailed descriptions")
+        print("🔬 These visualizations are ready for your research paper!")
+        
+    except ImportError as e:
+        print(f"⚠ Missing visualization modules: {e}")
+        print("Make sure visualization_generator.py and advanced_visualizations.py are in the same directory")
+        print("Install requirements: pip install matplotlib seaborn pandas networkx plotly")
+    except Exception as e:
+        print(f"❌ Error generating visualizations: {e}")
+        import traceback
+        traceback.print_exc()
+
+# Call the visualization function at the very end of your analysis
+if all_games and 'weakness_report' in locals() and 'tactical_analysis' in locals():
+    generate_research_visualizations(all_games, player_stats, weakness_report, tactical_analysis, target_username)
+else:
+    print("⚠ Some analysis data missing - skipping visualizations")
+    print("Available data:")
+    print(f"  - Games: {'✓' if all_games else '✗'}")
+    print(f"  - Player Stats: {'✓' if 'player_stats' in locals() else '✗'}")
+    print(f"  - Weakness Report: {'✓' if 'weakness_report' in locals() else '✗'}")
+    print(f"  - Tactical Analysis: {'✓' if 'tactical_analysis' in locals() else '✗'}")
+
+print("\n### VISUALIZATION INTEGRATION COMPLETE ###")
+
 ### STEP 7: Generate LLM Training Data for Chess Strategy ###
 
 def analyze_opponent_patterns(weakness_report, tactical_analysis):
@@ -1126,6 +1174,169 @@ def analyze_opponent_patterns(weakness_report, tactical_analysis):
         })
     
     return opponent_analysis
+
+def generate_opening_pgn_and_links(opening_name, variation_name=""):
+    """Generate PGN and analysis links for specific opening lines"""
+    
+    # Opening move sequences mapped to their PGN
+    opening_pgns = {
+        # Sicilian Dragon variations
+        "Sicilian Dragon": "1.e4 c5 2.Nf3 d6 3.d4 cxd4 4.Nxd4 Nf6 5.Nc3 g6 6.Be3 Bg7 7.f3 Nc6 8.Qd2 O-O 9.Bc4 Bd7 10.O-O-O",
+        "Sicilian Najdorf": "1.e4 c5 2.Nf3 d6 3.d4 cxd4 4.Nxd4 Nf6 5.Nc3 a6 6.Bg5 e6 7.f4 Be7 8.Qf3 Qc7 9.O-O-O",
+        "Accelerated Dragon": "1.e4 c5 2.Nf3 g6 3.d4 cxd4 4.Nxd4 Bg7 5.Nc3 Nc6 6.Be3 Nf6 7.Bc4 O-O 8.Bb3",
+        "Yugoslav Attack": "1.e4 c5 2.Nf3 d6 3.d4 cxd4 4.Nxd4 Nf6 5.Nc3 g6 6.Be3 Bg7 7.f3 Nc6 8.Qd2 O-O 9.Bc4 Bd7 10.O-O-O Rc8 11.Bb3 Ne5 12.h4",
+        
+        # King's Indian Defense
+        "King's Indian Defense": "1.d4 Nf6 2.c4 g6 3.Nc3 Bg7 4.e4 d6 5.Nf3 O-O 6.Be2 e5 7.O-O Nc6 8.d5 Ne7",
+        "King's Indian setup": "1.d4 Nf6 2.c4 g6 3.Nc3 Bg7 4.e4 d6 5.Nf3 O-O",
+        
+        # Dutch Defense
+        "Dutch Defense": "1.d4 f5 2.g3 Nf6 3.Bg2 e6 4.Nf3 Be7 5.O-O O-O 6.c4 d6",
+        
+        # Two Knights Defense
+        "Two Knights Defense": "1.e4 e5 2.Nf3 Nc6 3.Bc4 Nf6 4.Ng5 d5 5.exd5 Na5 6.Bb5+ c6 7.dxc6 bxc6 8.Be2",
+        
+        # Berlin Defense
+        "Berlin Defense": "1.e4 e5 2.Nf3 Nc6 3.Bb5 Nf6 4.O-O Nxe4 5.d4 Nd6 6.Bxc6 dxc6 7.dxe5 Nf5 8.Qxd8+ Kxd8",
+        
+        # Marshall Attack
+        "Marshall Attack": "1.e4 e5 2.Nf3 Nc6 3.Bb5 a6 4.Ba4 Nf6 5.O-O Be7 6.Re1 b5 7.Bb3 O-O 8.c3 d5",
+        
+        # Caro-Kann variations
+        "Caro-Kann Advance": "1.e4 c6 2.d4 d5 3.e5 Bf5 4.Nf3 e6 5.Be2 Nd7 6.O-O Ne7 7.Nbd2",
+        "Panov-Botvinnik Attack": "1.e4 c6 2.d4 d5 3.exd5 cxd5 4.c4 Nf6 5.Nc3 e6 6.Nf3 Bb4 7.cxd5 Nxd5 8.Bd2",
+        
+        # French Defense
+        "French Classical": "1.e4 e6 2.d4 d5 3.Nc3 Nf6 4.Bg5 Be7 5.e5 Nfd7 6.Bxe7 Qxe7 7.f4",
+        "French Advance": "1.e4 e6 2.d4 d5 3.e5 c5 4.c3 Nc6 5.Nf3 Qb6 6.a3 c4",
+        
+        # Alekhine Defense
+        "Alekhine Defense": "1.e4 Nf6 2.e5 Nd5 3.d4 d6 4.Nf3 dxe5 5.Nxe5 Nd7 6.Nxd7 Bxd7 7.Bd3",
+        
+        # Benoni Defense
+        "Benoni Defense": "1.d4 Nf6 2.c4 c5 3.d5 e6 4.Nc3 exd5 5.cxd5 d6 6.e4 g6 7.Nf3 Bg7 8.Be2 O-O",
+        
+        # English Opening variations
+        "English Opening": "1.c4 e5 2.Nc3 Nf6 3.g3 d5 4.cxd5 Nxd5 5.Bg2 Nb6 6.Nf3 Nc6 7.O-O Be7",
+        "English Neo-Catalan": "1.c4 Nf6 2.g3 e6 3.Bg2 d5 4.Nf3 Be7 5.O-O O-O 6.b3 c5 7.Bb2",
+        "Reversed Sicilian": "1.c4 e5 2.Nc3 Nc6 3.g3 g6 4.Bg2 Bg7 5.d3 d6 6.Nf3",
+        
+        # Common tactical lines
+        "Sharp tactical play": "1.e4 c5 2.Nf3 d6 3.d4 cxd4 4.Nxd4 Nf6 5.Nc3 a6 6.f4 e5 7.Nf3 Nbd7 8.Bd3",
+        "Complex middlegame": "1.d4 Nf6 2.c4 g6 3.Nc3 d5 4.cxd5 Nxd5 5.e4 Nxc3 6.bxc3 Bg7 7.Bc4 c5 8.Ne2 Nc6 9.Be3 O-O 10.O-O"
+    }
+    
+    # Get PGN for the opening/variation
+    pgn = opening_pgns.get(variation_name, opening_pgns.get(opening_name, ""))
+    
+    if not pgn:
+        # Generate basic PGN based on opening name patterns
+        if "Sicilian" in opening_name:
+            pgn = "1.e4 c5 2.Nf3 d6 3.d4 cxd4 4.Nxd4 Nf6 5.Nc3"
+        elif "French" in opening_name:
+            pgn = "1.e4 e6 2.d4 d5 3.Nc3"
+        elif "Caro-Kann" in opening_name:
+            pgn = "1.e4 c6 2.d4 d5"
+        elif "English" in opening_name:
+            pgn = "1.c4 e5 2.Nc3 Nf6"
+        elif "King's Indian" in opening_name:
+            pgn = "1.d4 Nf6 2.c4 g6 3.Nc3 Bg7"
+        else:
+            pgn = "1.e4 e5 2.Nf3 Nc6"  # Default
+    
+    return pgn
+
+def create_analysis_links(pgn, opening_name, variation_name=""):
+    """Create analysis links for Lichess and Chess.com"""
+    
+    import urllib.parse
+    
+    # Create Lichess analysis link
+    # Lichess accepts PGN in URL format
+    lichess_pgn = pgn.replace(" ", "%20").replace(".", "%2E")
+    lichess_url = f"https://lichess.org/analysis/pgn/{lichess_pgn}"
+    
+    # Create Chess.com analysis link (uses FEN from starting position)
+    # For Chess.com, we'll create a simpler analysis board link
+    chesscom_url = f"https://www.chess.com/analysis?pgn={urllib.parse.quote(pgn)}"
+    
+    # Create a more user-friendly opening explorer link for Lichess
+    opening_explorer_url = f"https://lichess.org/analysis#{pgn.replace(' ', '_').replace('.', '')}"
+    
+    return {
+        "lichess_analysis": lichess_url,
+        "chesscom_analysis": chesscom_url,
+        "lichess_explorer": f"https://lichess.org/analysis/standard/{pgn.split()[-1] if pgn else 'startpos'}",
+        "opening_name": f"{opening_name} - {variation_name}" if variation_name else opening_name,
+        "pgn": pgn
+    }
+
+def enhance_opening_recommendations(opening_recommendations):
+    """Enhance opening recommendations with PGN and analysis links"""
+    
+    enhanced_recommendations = []
+    
+    for rec in opening_recommendations:
+        enhanced_rec = rec.copy()
+        enhanced_lines = []
+        
+        for line in rec.get('specific_lines', []):
+            # Extract opening/variation name from the line description
+            variation_name = ""
+            opening_name = rec['target_opening']
+            
+            # Parse variation names from line descriptions
+            if "Dragon" in line:
+                variation_name = "Sicilian Dragon"
+            elif "Najdorf" in line:
+                variation_name = "Sicilian Najdorf"
+            elif "Yugoslav Attack" in line:
+                variation_name = "Yugoslav Attack"
+            elif "Accelerated Dragon" in line:
+                variation_name = "Accelerated Dragon"
+            elif "Two Knights" in line:
+                variation_name = "Two Knights Defense"
+            elif "Berlin" in line:
+                variation_name = "Berlin Defense"
+            elif "Marshall" in line:
+                variation_name = "Marshall Attack"
+            elif "King's Indian" in line:
+                variation_name = "King's Indian Defense"
+            elif "Advance Variation" in line and "Caro" in opening_name:
+                variation_name = "Caro-Kann Advance"
+            elif "Panov-Botvinnik" in line:
+                variation_name = "Panov-Botvinnik Attack"
+            elif "Classical" in line and "French" in opening_name:
+                variation_name = "French Classical"
+            elif "Advance Variation" in line and "French" in opening_name:
+                variation_name = "French Advance"
+            elif "Alekhine" in line:
+                variation_name = "Alekhine Defense"
+            elif "Benoni" in line:
+                variation_name = "Benoni Defense"
+            elif "Dutch" in line:
+                variation_name = "Dutch Defense"
+            elif "Neo-Catalan" in line:
+                variation_name = "English Neo-Catalan"
+            elif "reversed Sicilian" in line:
+                variation_name = "Reversed Sicilian"
+            
+            # Generate PGN and links
+            pgn = generate_opening_pgn_and_links(opening_name, variation_name)
+            links = create_analysis_links(pgn, opening_name, variation_name)
+            
+            enhanced_line = {
+                "description": line,
+                "pgn": pgn,
+                "analysis_links": links
+            }
+            
+            enhanced_lines.append(enhanced_line)
+        
+        enhanced_rec['specific_lines'] = enhanced_lines
+        enhanced_recommendations.append(enhanced_rec)
+    
+    return enhanced_recommendations
 
 def generate_counter_strategy(opponent_patterns):
     """Generate strategic recommendations to exploit opponent weaknesses"""
@@ -1261,12 +1472,14 @@ Key Approach:
 This strategy exploits both positional weaknesses and tactical vulnerabilities while leveraging psychological pressure.
 """.strip()
     
+    # Enhance opening recommendations with PGN and analysis links
+    if counter_strategy['opening_recommendations']:
+        counter_strategy['opening_recommendations'] = enhance_opening_recommendations(counter_strategy['opening_recommendations'])
+    
     return counter_strategy
 
 def create_training_data_entry(opponent_patterns, counter_strategy, target_player):
     """Create a single training data entry in input-output format"""
-    
-    import datetime
     
     # Generate unique session ID based on timestamp and player
     session_id = f"{target_player}_{datetime.datetime.now().strftime('%Y%m%d_%H%M%S')}"
@@ -1518,9 +1731,54 @@ def display_dataset_statistics(filename="chess_strategy_training_data.json"):
     except Exception as e:
         print(f"✗ Error reading dataset statistics: {e}")
 
+def display_enhanced_recommendations(training_dataset):
+    """Display the enhanced recommendations with PGN and analysis links"""
+    
+    if not training_dataset:
+        return
+    
+    main_entry = training_dataset[0]
+    opening_choices = main_entry.get('output', {}).get('strategic_recommendations', {}).get('opening_choices', [])
+    
+    if not opening_choices:
+        return
+    
+    print(f"\n### 🎯 ACTIONABLE STRATEGY RECOMMENDATIONS ###")
+    print("Each recommendation includes PGN notation and analysis links for immediate study:")
+    print("=" * 80)
+    
+    for i, rec in enumerate(opening_choices, 1):
+        print(f"\n{i}. TARGET OPENING: {rec['target_opening']}")
+        print(f"   STRATEGY: {rec['exploitation_method']}")
+        print(f"   REASONING: {rec['reasoning']}")
+        
+        if rec.get('specific_lines'):
+            print(f"\n   📚 RECOMMENDED LINES TO STUDY:")
+            
+            for j, line in enumerate(rec['specific_lines'], 1):
+                if isinstance(line, dict):
+                    print(f"\n   {i}.{j} {line['description']}")
+                    print(f"        PGN: {line['pgn']}")
+                    print(f"        🔗 Study on Lichess: {line['analysis_links']['lichess_analysis']}")
+                    print(f"        🔗 Study on Chess.com: {line['analysis_links']['chesscom_analysis']}")
+                else:
+                    print(f"   {i}.{j} {line}")
+        
+        print(f"\n   ✅ EXPECTED SUCCESS RATE: {main_entry['output']['expected_success_rate']:.1f}")
+        print("-" * 80)
+    
+    print(f"\n💡 TIP: Click the analysis links to open interactive boards where you can:")
+    print("   • Explore variations with computer analysis")
+    print("   • Practice the openings against the computer") 
+    print("   • Study master games in these lines")
+    print("   • Memorize key positions and ideas")
+
 # Generate the training dataset
 if all_games and 'weakness_report' in locals() and 'tactical_analysis' in locals():
     training_dataset = generate_llm_training_dataset(all_games, weakness_report, tactical_analysis, target_username)
+    
+    # Display enhanced recommendations for user
+    display_enhanced_recommendations(training_dataset)
     
     # Save the dataset
     save_success = save_training_dataset(training_dataset)
@@ -1544,9 +1802,25 @@ if all_games and 'weakness_report' in locals() and 'tactical_analysis' in locals
             rec = sample_entry['output']['strategic_recommendations']['opening_choices'][0]
             print(f"  - Target: {rec['target_opening']}")
             print(f"  - Method: {rec['exploitation_method']}")
-            print(f"  - Specific lines: {rec['specific_lines'][0] if rec['specific_lines'] else 'None'}")
+            
+            if rec['specific_lines']:
+                first_line = rec['specific_lines'][0]
+                if isinstance(first_line, dict):
+                    print(f"  - Specific line: {first_line['description']}")
+                    print(f"    PGN: {first_line['pgn']}")
+                    print(f"    📋 Lichess Analysis: {first_line['analysis_links']['lichess_analysis']}")
+                    print(f"    📋 Chess.com Analysis: {first_line['analysis_links']['chesscom_analysis']}")
+                else:
+                    print(f"  - Specific lines: {first_line}")
         
         print(f"  - Expected success rate: {sample_entry['output']['expected_success_rate']:.1f}")
+        
+        print(f"\n### Enhanced Strategy Recommendations ###")
+        print("Each opening line now includes:")
+        print("✓ Complete PGN notation for the recommended variation")
+        print("✓ Direct links to Lichess and Chess.com analysis boards") 
+        print("✓ Click links to explore the opening with computer analysis")
+        print("✓ Study the recommended lines interactively online")
         
         print(f"\n### Dataset Generation Complete ###")
         print(f"The dataset is ready for LLM training and contains structured input-output pairs")
