@@ -1,0 +1,13 @@
+ECO Category,Openings Analyzed,Weaknesses Detected,Detection Rate (%),Avg Error Rate,Critical Weaknesses,Success Prediction (%),Sample Size
+"A00-A39
+(Flank Openings)",127,89,70.1,2.3,23,78.4,1205
+"A40-A99
+(Queen Pawn)",203,156,76.8,1.8,34,82.1,1876
+"B00-B99
+(Semi-Open)",189,134,70.9,2.1,29,79.6,1634
+"C00-C99
+(Open Games)",245,178,72.7,1.9,41,80.8,2103
+"D00-D99
+(Closed Games)",198,142,71.7,2.0,31,81.2,1789
+"E00-E99
+(Indian Defenses)",156,108,69.2,2.2,22,77.9,1432

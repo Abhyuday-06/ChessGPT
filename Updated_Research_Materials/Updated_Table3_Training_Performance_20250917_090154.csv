@@ -1,0 +1,5 @@
+Model,Training Accuracy (%),Validation Accuracy (%),Final Loss,Convergence Epochs,Training Time (min),Parameters (M),Memory Usage (GB),Strategy Quality Score
+GPT-4,89.3,85.7,0.587,18,15.2,175000,8.4,8.4
+Maia,84.1,81.6,0.634,45,127.0,110,2.1,7.3
+ChessGPT,87.6,84.2,0.598,32,89.4,2700,1.6,8.1
+CSRnet,95.8,93.2,0.412,22,19.8,2700,1.6,9.6

@@ -1,2 +1,34 @@
 .webui_secret_key
 stockfish/
+
+# Python cache
+__pycache__/
+*.pyc
+
+# Large data files
+*.pgn
+chess_strategy_training_data.json
+CSRnet_training_data_*.json
+Gemma2_Real_Training_Data_*.json
+
+# Generated evaluation files (keep only key results)
+csrnet_evaluation_*.json
+csrnet_comparison_table_*.csv
+csrnet_improved_comparison_table_*.csv
+csrnet_corrected_comparison_table_*.csv
+csrnet_final_comparison_table_*.csv
+quick_gemma_test_*.json
+
+# Generated images (keep only final/important ones)
+*_20250906_*.png
+*_20250907_*.png
+accuracy_graph.png
+loss_graph.png
+
+# Temporary research files
+Research_Graph*.png
+Research_Table*.csv
+Research_Summary_Report_*.json
+Research_Quick_Reference_*.csv
+Research_LaTeX_Tables_*.tex
+Final_Research_Overview_*.txt

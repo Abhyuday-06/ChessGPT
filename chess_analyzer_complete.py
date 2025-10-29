@@ -1076,53 +1076,6 @@ print("- Mistakes: Moves losing 100-199 centipawns")
 print("- Inaccuracies: Moves losing 50-99 centipawns")
 print("- Analysis covers the first 10 moves (20 ply) from each side")
 
-### STEP 8: Generate Research Paper Visualizations ###
-
-def generate_research_visualizations(all_games, player_stats, weakness_report, tactical_analysis, target_username):
-    """Generate all visualizations for research paper"""
-    
-    print(f"\n### GENERATING RESEARCH VISUALIZATIONS ###")
-    print("Creating visual analyses for research paper...")
-    
-    try:
-        # Import visualization modules
-        from visualization_generator import generate_all_visualizations
-        from advanced_visualizations import generate_advanced_visualizations
-        
-        # Generate standard visualizations
-        generate_all_visualizations(all_games, player_stats, weakness_report, tactical_analysis, target_username)
-        
-        # Generate advanced visualizations
-        generate_advanced_visualizations(player_stats, weakness_report, tactical_analysis, target_username)
-        
-        print("\n🎉 ALL VISUALIZATIONS COMPLETE! 🎉")
-        print("=" * 60)
-        print("📁 Check the 'visualizations' folder for all generated charts")
-        print("📄 Review 'visualization_report.md' for detailed descriptions")
-        print("🔬 These visualizations are ready for your research paper!")
-        
-    except ImportError as e:
-        print(f"⚠ Missing visualization modules: {e}")
-        print("Make sure visualization_generator.py and advanced_visualizations.py are in the same directory")
-        print("Install requirements: pip install matplotlib seaborn pandas networkx plotly")
-    except Exception as e:
-        print(f"❌ Error generating visualizations: {e}")
-        import traceback
-        traceback.print_exc()
-
-# Call the visualization function at the very end of your analysis
-if all_games and 'weakness_report' in locals() and 'tactical_analysis' in locals():
-    generate_research_visualizations(all_games, player_stats, weakness_report, tactical_analysis, target_username)
-else:
-    print("⚠ Some analysis data missing - skipping visualizations")
-    print("Available data:")
-    print(f"  - Games: {'✓' if all_games else '✗'}")
-    print(f"  - Player Stats: {'✓' if 'player_stats' in locals() else '✗'}")
-    print(f"  - Weakness Report: {'✓' if 'weakness_report' in locals() else '✗'}")
-    print(f"  - Tactical Analysis: {'✓' if 'tactical_analysis' in locals() else '✗'}")
-
-print("\n### VISUALIZATION INTEGRATION COMPLETE ###")
-
 ### STEP 7: Generate LLM Training Data for Chess Strategy ###
 
 def analyze_opponent_patterns(weakness_report, tactical_analysis):

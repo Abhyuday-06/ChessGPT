@@ -1,0 +1,4 @@
+Method,Accuracy (%),Precision,Recall,F1-Score,Response Quality,Processing Time (s),Strategy Sophistication,Confidence Level
+Base Gemma 2,76.2,0.742,0.738,0.74,6.8,0.12,3.2,0.68
+Stockfish 15 + Base Gemma 2,82.4,0.819,0.825,0.822,7.9,2.34,6.7,0.81
+CSRnet,91.7,0.908,0.914,0.911,8.7,4.67,8.9,0.92
