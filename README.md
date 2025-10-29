@@ -1,17 +1,17 @@
-# 🏛️ Chess Strategy AI
+# Chess Strategy AI
 
 A comprehensive AI-powered chess strategy generator that analyzes players and provides personalized strategies to exploit their weaknesses.
 
-## ✨ Features
+## Features
 
-- **🔍 Automatic Game Analysis**: Downloads and analyzes games from Chess.com and Lichess
-- **🧠 AI-Powered Strategy Generation**: Uses local LLM (Ollama) to generate personalized strategies
-- **📊 Weakness Detection**: Identifies tactical and strategic weaknesses using Stockfish
-- **🎨 Multiple Interfaces**: Choose from simple single-input UI, Open WebUI integration, or enhanced web interface
-- **⚡ Real-time Progress**: Live progress tracking during analysis
-- **🌐 Modern UI**: Beautiful, responsive web interfaces
+- **Automatic Game Analysis**: Downloads and analyzes games from Chess.com and Lichess
+- **AI-Powered Strategy Generation**: Uses local LLM (Ollama) to generate personalized strategies
+- **Weakness Detection**: Identifies tactical and strategic weaknesses using Stockfish
+- **Multiple Interfaces**: Choose from simple single-input UI, Open WebUI integration, or enhanced web interface
+- **Real-time Progress**: Live progress tracking during analysis
+- **Modern UI**: Beautiful, responsive web interfaces
 
-## 🚀 Quick Start
+## Quick Start
 
 1. **Install Dependencies**:
    ```bash
@@ -36,7 +36,7 @@ A comprehensive AI-powered chess strategy generator that analyzes players and pr
    - **Option 3**: Enhanced Web UI (Full-featured interface)
    - **Option 4**: Command Line (Direct terminal usage)
 
-## 🎯 Usage
+## Usage
 
 ### Simple Single-Input UI
 ```bash
@@ -60,23 +60,23 @@ python chess_analyzer.py [username]
 # Direct analysis of any chess player
 ```
 
-## 📁 Project Structure
+## Project Structure
 
 ```
 ChessGPT/
-├── 🚀 quick_start.py           # Main launcher (START HERE)
-├── 🎨 single_input_ui.py       # Simple single-input interface
-├── 🏛️ openwebui_backend.py     # Open WebUI compatible backend
-├── 💻 enhanced_web_ui.py       # Full-featured web interface
-├── 🔍 chess_analyzer.py        # Core analysis engine
-├── 🤖 ollama_llm.py            # Local LLM integration
-├── 📊 enhanced_analyzer.py     # Enhanced analysis with progress
-├── ⚙️ setup_enhanced.py        # Automated setup script
-├── 🐳 chess_ai_complete.py     # Complete automated setup
-└── 📋 requirements.txt         # Dependencies
+├── quick_start.py           # Main launcher (START HERE)
+├── single_input_ui.py       # Simple single-input interface
+├── openwebui_backend.py     # Open WebUI compatible backend
+├── enhanced_web_ui.py       # Full-featured web interface
+├── chess_analyzer.py        # Core analysis engine
+├── ollama_llm.py            # Local LLM integration
+├── enhanced_analyzer.py     # Enhanced analysis with progress
+├── setup_enhanced.py        # Automated setup script
+├── chess_ai_complete.py     # Complete automated setup
+└── requirements.txt         # Dependencies
 ```
 
-## 🔧 Configuration
+## Configuration
 
 ### Ollama Models
 The system supports various Ollama models:
@@ -90,7 +90,7 @@ The system supports various Ollama models:
 - Stockfish is included in the `stockfish/` directory
 - Automatically configured for game analysis
 
-## 🌟 Interfaces
+## Interfaces
 
 ### 1. Single-Input UI (Recommended)
 - **URL**: http://localhost:5001
@@ -107,15 +107,15 @@ The system supports various Ollama models:
 - **Features**: Multi-step interface, detailed progress
 - **Best for**: Detailed analysis, power users
 
-## 🎮 Example Usage
+## Example Usage
 
 ### Analyze a Player
 ```
 Input: "hikaru"
 Output: 
-🔍 Analyzing hikaru...
-📥 Downloading games...
-🧠 AI Strategy Generated!
+Analyzing hikaru...
+Downloading games...
+AI Strategy Generated!
 
 Key Weaknesses:
 1. Time pressure in endgames
@@ -127,14 +127,14 @@ Strategy: Focus on creating complex middlegame positions...
 ### Chat with AI
 ```
 User: "Analyze player magnus"
-AI: 🔍 Starting analysis for magnus...
-    📥 Downloading games from Chess.com and Lichess...
-    🧠 Generating personalized strategy...
+AI: Starting analysis for magnus...
+    Downloading games from Chess.com and Lichess...
+    Generating personalized strategy...
     
     Strategy: Magnus is exceptionally strong in endgames...
 ```
 
-## 📊 Analysis Features
+## Analysis Features
 
 - **Game Download**: Automatically fetches recent games from Chess.com and Lichess
 - **Stockfish Analysis**: Deep engine evaluation of critical positions
@@ -145,7 +145,7 @@ AI: 🔍 Starting analysis for magnus...
   - Endgame technique weaknesses
 - **AI Strategy**: Personalized recommendations based on detected weaknesses
 
-## 🔧 Advanced Setup
+## Advanced Setup
 
 ### Manual Setup
 ```bash
@@ -168,19 +168,19 @@ python enhanced_web_ui.py      # Enhanced UI
 docker-compose up -d
 ```
 
-## 🎯 Supported Players
+## Supported Players
 
 - **Chess.com**: Any public username
 - **Lichess**: Any public username
 - **Automatic Detection**: System automatically determines platform
 
-## 📈 Performance
+## Performance
 
 - **Analysis Time**: 1-5 minutes per player
 - **Memory Usage**: ~500MB - 2GB (depending on model)
 - **Storage**: ~100MB per analyzed player
 
-## 🛠️ Troubleshooting
+## Troubleshooting
 
 ### Common Issues
 
@@ -203,7 +203,7 @@ docker-compose up -d
    - Verify internet connection
    - Check Stockfish installation
 
-## 🤝 Contributing
+## Contributing
 
 1. Fork the repository
 2. Create your feature branch
@@ -211,18 +211,18 @@ docker-compose up -d
 4. Push to the branch
 5. Create a Pull Request
 
-## 📄 License
+## License
 
 This project is licensed under the MIT License - see the LICENSE file for details.
 
-## 🙏 Acknowledgments
+## Acknowledgments
 
 - **Stockfish**: Chess engine for position analysis
 - **Ollama**: Local LLM infrastructure
 - **Chess.com & Lichess**: Game data sources
 - **python-chess**: Chess library for Python
 
-## 🚀 Get Started Now!
+## Get Started Now!
 
 ```bash
 python quick_start.py
